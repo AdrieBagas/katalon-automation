@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Assign Role from Detail User Manager Tracking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e33e30c-bca3-494c-9357-aa976d379752</testCaseGuid>
+</TestCaseEntity>

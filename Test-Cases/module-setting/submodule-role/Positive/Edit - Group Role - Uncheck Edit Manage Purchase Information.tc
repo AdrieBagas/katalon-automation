@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group Role - Uncheck Edit Manage Purchase Information</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb086644-2d9e-4b0e-9458-518cc45c0c9f</testCaseGuid>
+</TestCaseEntity>

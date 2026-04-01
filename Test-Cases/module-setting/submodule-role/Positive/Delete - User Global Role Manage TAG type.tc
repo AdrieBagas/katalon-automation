@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - User Global Role Manage TAG type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b8010079-efe9-43e6-ac49-49e6af5dd404</testCaseGuid>
+</TestCaseEntity>

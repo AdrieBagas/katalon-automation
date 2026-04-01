@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Inactivated Global Role - Manage Asset Master Data from Detail user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>342b2e6e-0f45-4108-bd52-413938e4988d</testCaseGuid>
+</TestCaseEntity>

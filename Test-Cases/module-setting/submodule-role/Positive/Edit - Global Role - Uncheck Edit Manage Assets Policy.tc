@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Global Role - Uncheck Edit Manage Assets Policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>126fbf50-fe62-481f-aeab-22174aa7facd</testCaseGuid>
+</TestCaseEntity>

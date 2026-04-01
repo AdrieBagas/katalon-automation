@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Inactivated Group Role - Manage IOT and Reader from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65e73287-9a90-4d78-aa05-a22030abad3c</testCaseGuid>
+</TestCaseEntity>

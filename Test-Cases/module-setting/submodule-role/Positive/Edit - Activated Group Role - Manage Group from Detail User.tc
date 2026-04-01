@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Activated Group Role - Manage Group from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>139bee9d-6b81-42d6-971d-87cb583117d5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Activated Global Role - Manage Depreciation Method from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>556081fd-6701-4866-b10e-63ebe48954e9</testCaseGuid>
+</TestCaseEntity>

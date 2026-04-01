@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group Role - Uncheck Delete Manage Group Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3b7e2f6-a69e-46f3-8f20-4060a2cebc4c</testCaseGuid>
+</TestCaseEntity>

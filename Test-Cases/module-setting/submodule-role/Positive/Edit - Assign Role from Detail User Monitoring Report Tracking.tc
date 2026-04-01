@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Assign Role from Detail User Monitoring Report Tracking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82f847bf-e8d8-4eaf-abee-c1b1b75ad8f4</testCaseGuid>
+</TestCaseEntity>

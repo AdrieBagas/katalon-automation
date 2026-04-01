@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group Role - Uncheck Edit Manage License</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e15d00ef-728c-4127-bb22-0cdf300d8e70</testCaseGuid>
+</TestCaseEntity>

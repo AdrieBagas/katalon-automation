@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - User Group Role Manage TAG</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b387ab0-0de1-46e9-8c6b-0fef457e2e57</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - User Global Role Manage asset policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aae06543-c5a4-4515-bed4-edc0a7c6d1e0</testCaseGuid>
+</TestCaseEntity>

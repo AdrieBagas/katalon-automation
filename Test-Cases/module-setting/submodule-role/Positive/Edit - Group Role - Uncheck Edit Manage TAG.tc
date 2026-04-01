@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group Role - Uncheck Edit Manage TAG</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d36ae01f-2366-4904-8061-b7a05eb0e19e</testCaseGuid>
+</TestCaseEntity>

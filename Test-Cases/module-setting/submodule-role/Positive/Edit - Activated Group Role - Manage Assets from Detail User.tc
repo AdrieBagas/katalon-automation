@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Activated Group Role - Manage Assets from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4632f4d-d7d9-4acd-ad3a-7206ea4e69c2</testCaseGuid>
+</TestCaseEntity>

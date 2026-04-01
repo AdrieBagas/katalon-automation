@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - User Group Role Manage Assets</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6848dfb-a7f2-4089-a823-9bfbbd1a38fd</testCaseGuid>
+</TestCaseEntity>

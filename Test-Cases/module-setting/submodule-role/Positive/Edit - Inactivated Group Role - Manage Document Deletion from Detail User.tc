@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Inactivated Group Role - Manage Document Deletion from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d5cc724-bd3c-442e-9f1d-be072eafcd06</testCaseGuid>
+</TestCaseEntity>

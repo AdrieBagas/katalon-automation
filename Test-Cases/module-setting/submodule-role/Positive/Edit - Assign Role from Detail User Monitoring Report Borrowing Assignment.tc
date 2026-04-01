@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Assign Role from Detail User Monitoring Report Borrowing Assignment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4297a6e6-a01e-4159-b469-e0618a48b272</testCaseGuid>
+</TestCaseEntity>

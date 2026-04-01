@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Global Role - Uncheck Create Manage Depreciation Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7437819-619e-4a6c-84ab-dd364f788610</testCaseGuid>
+</TestCaseEntity>

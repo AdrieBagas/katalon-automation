@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Inactivated Global Role - Manage Asset Policy from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e9a31cf-3124-4d77-bcd6-f374241227c4</testCaseGuid>
+</TestCaseEntity>

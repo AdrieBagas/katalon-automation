@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Global Role - Uncheck Delete Manage Asset Master Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a076841c-f79f-42d7-8505-84eb30bd0e4a</testCaseGuid>
+</TestCaseEntity>

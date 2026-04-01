@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Activated Group Role - Manage Purchase Information from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2a4dfde-b650-4db3-bed3-6c488c15cd97</testCaseGuid>
+</TestCaseEntity>

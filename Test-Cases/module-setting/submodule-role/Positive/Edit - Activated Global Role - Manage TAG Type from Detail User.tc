@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Activated Global Role - Manage TAG Type from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2cd99d00-7e36-413d-960e-3c458a02dc0f</testCaseGuid>
+</TestCaseEntity>

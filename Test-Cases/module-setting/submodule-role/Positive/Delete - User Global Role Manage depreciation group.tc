@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - User Global Role Manage depreciation group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c77dbfff-d805-4daf-99ab-1d541bf2e810</testCaseGuid>
+</TestCaseEntity>
