@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Elipsis Sub</name>
+   <tag></tag>
+   <elementGuidId>1943aa24-0c17-4fe2-8049-c6885a6e564f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;1733799821146&quot;)/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;m-0 p-0 list-none overflow-auto&quot;]/li[@class=&quot;p-[2px] rounded-md focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/li[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/ul[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/li[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/div[@class=&quot;flex items-center rounded-md p-1 text-surface-700 dark:text-surface-700 hover:bg-primary-50 dark:hover:bg-general-700 transition-shadow duration-200 cursor-pointer select-none cursor-pointer&quot;]/button[@class=&quot;inline-flex items-center justify-center shrink-0 border-0 rounded-full w-4 h-4 mr-0.5 text-general-800 dark:text-general-100 bg-transparent hover:bg-surface-100 dark:hover:bg-general-800 transition duration-200 cursor-pointer select-none&quot;]/i[@class=&quot;w-4 h-4 icon ic-arrow-right text-inherit cursor-pointer w-4 h-4&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[2]/ul/li/div/span[2]/button/i&#xd;</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=treeitem[name=&quot;aaab&quot;i] >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>709fd602-82b1-4b09-97fd-88a6314ecc83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-4 h-4 icon ic-arrow-right text-inherit cursor-pointer w-4 h-4</value>
+      <webElementGuid>c34eea1c-efe2-449a-bf87-83391501e8d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-section</name>
+      <type>Main</type>
+      <value>togglericon</value>
+      <webElementGuid>c447399f-ea73-4842-bc85-628f12f27566</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1733799821146&quot;)/div[@class=&quot;overflow-auto&quot;]/ul[@class=&quot;m-0 p-0 list-none overflow-auto&quot;]/li[@class=&quot;p-[2px] rounded-md focus:outline-none focus:outline-offset-0&quot;]/ul[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/li[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/ul[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/li[@class=&quot;!m-0 list-none p-0 !pl-1&quot;]/div[@class=&quot;flex items-center rounded-md p-1 text-surface-700 dark:text-surface-700 hover:bg-primary-50 dark:hover:bg-general-700 transition-shadow duration-200 cursor-pointer select-none cursor-pointer&quot;]/button[@class=&quot;inline-flex items-center justify-center shrink-0 border-0 rounded-full w-4 h-4 mr-0.5 text-general-800 dark:text-general-100 bg-transparent hover:bg-surface-100 dark:hover:bg-general-800 transition duration-200 cursor-pointer select-none&quot;]/i[@class=&quot;w-4 h-4 icon ic-arrow-right text-inherit cursor-pointer w-4 h-4&quot;]</value>
+      <webElementGuid>629d5a1a-ec22-4ecb-89a3-ee0025dba7c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1733193574688']/div/ul/li/ul/li[2]/ul/li/div/span[2]/button/i</value>
+      <webElementGuid>629543e4-feb3-46a8-99f1-6b1d3c09a719</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li/div/span[2]/button/i</value>
+      <webElementGuid>0544d5da-2f16-47b9-b91d-1e2482473a59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
