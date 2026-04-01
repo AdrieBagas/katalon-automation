@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - All Approver Level 1 Repair Ticketing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cef01cb8-6b8a-46ce-ab74-7d27063315e2</testCaseGuid>
+</TestCaseEntity>
