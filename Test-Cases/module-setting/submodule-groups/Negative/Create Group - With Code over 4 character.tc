@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Group - With Code over 4 character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e2d3f91-64a5-4df1-a212-67ba2efd3907</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>649cd1d4-ff39-443c-8f28-cd4642fa9b3d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>649cd1d4-ff39-443c-8f28-cd4642fa9b3d</id>
+      <masked>false</masked>
+      <name>actualValue</name>
+   </variable>
+</TestCaseEntity>

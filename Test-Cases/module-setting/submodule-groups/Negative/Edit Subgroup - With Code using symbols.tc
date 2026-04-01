@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Subgroup - With Code using symbols</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36f743a0-90ce-4fe2-a804-c369061c39b0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eabed40f-8600-4d52-b317-66888c6454b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>651b11b5-2321-4fc8-85f5-ee9e5b5c2e3f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>eabed40f-8600-4d52-b317-66888c6454b5</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Group Darrens'</defaultValue>
+      <description></description>
+      <id>651b11b5-2321-4fc8-85f5-ee9e5b5c2e3f</id>
+      <masked>false</masked>
+      <name>subGroupName</name>
+   </variable>
+</TestCaseEntity>

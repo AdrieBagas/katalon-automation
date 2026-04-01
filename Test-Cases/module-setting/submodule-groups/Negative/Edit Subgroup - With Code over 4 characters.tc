@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Subgroup - With Code over 4 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eee3a4e8-1fac-43f3-9741-a365f3a38dcc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f14d91d5-1731-4f1d-821c-08ee0bb570fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d8761f2-ca1a-4976-b4af-27eaf3526c04</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42c73e84-18f5-4c2a-b9da-5da205235ba4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>f14d91d5-1731-4f1d-821c-08ee0bb570fa</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Group Darrens'</defaultValue>
+      <description></description>
+      <id>7d8761f2-ca1a-4976-b4af-27eaf3526c04</id>
+      <masked>false</masked>
+      <name>subGroupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>42c73e84-18f5-4c2a-b9da-5da205235ba4</id>
+      <masked>false</masked>
+      <name>actualValue</name>
+   </variable>
+</TestCaseEntity>

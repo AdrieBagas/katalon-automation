@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Subgroup - With Code already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c2a6d055-60ae-42a2-bc54-90126be86b7b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b46764f-37e8-43e3-a029-6655019ec015</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darren'</defaultValue>
+      <description></description>
+      <id>5b46764f-37e8-43e3-a029-6655019ec015</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

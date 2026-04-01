@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Subgroup - With Code empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0baf33a8-5874-41da-8c8d-fcac842a5523</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9489db95-ae46-4a92-a98d-e66ff6d86114</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b40f9421-5e17-45d8-8ba0-77064f88d3e4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>9489db95-ae46-4a92-a98d-e66ff6d86114</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Group Darrens'</defaultValue>
+      <description></description>
+      <id>b40f9421-5e17-45d8-8ba0-77064f88d3e4</id>
+      <masked>false</masked>
+      <name>subGroupName</name>
+   </variable>
+</TestCaseEntity>
