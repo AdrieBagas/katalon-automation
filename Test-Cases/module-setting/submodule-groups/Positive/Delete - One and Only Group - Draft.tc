@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - One and Only Group - Draft</name>
+   <tag>done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ba4774c-ba6f-4ed1-9a38-926db9879fc2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group Disposal Policy Inactivated (Bulk Action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea5e5513-e9a0-4af8-ab48-a0474e3db2c5</testCaseGuid>
+</TestCaseEntity>

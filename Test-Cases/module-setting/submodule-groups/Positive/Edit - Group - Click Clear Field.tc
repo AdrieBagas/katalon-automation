@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group - Click Clear Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c45e5f37-d6eb-429b-830b-f07b3f559c09</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4cd5d916-47ab-4510-ae95-2bf6e70aee82</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>4cd5d916-47ab-4510-ae95-2bf6e70aee82</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

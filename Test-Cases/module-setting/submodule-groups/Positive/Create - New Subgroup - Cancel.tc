@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - New Subgroup - Cancel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eab0b60f-7268-4adf-8ce3-3ea445a37863</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcdc7a79-6489-4663-adec-3f8d938f3253</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darren'</defaultValue>
+      <description></description>
+      <id>fcdc7a79-6489-4663-adec-3f8d938f3253</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

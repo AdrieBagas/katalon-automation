@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Disposable Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>28f14034-4f5f-4155-83db-ff709ea7642b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5baeeb05-8cf0-43f5-9790-214f61d88126</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ecf4f3ba-ed6c-4c6e-a8a3-effc66a01ce2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e81f0806-ec67-4c81-a619-44d9346bc8ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Disposable Group Darren'</defaultValue>
+      <description></description>
+      <id>ecf4f3ba-ed6c-4c6e-a8a3-effc66a01ce2</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'DGDA'</defaultValue>
+      <description></description>
+      <id>e81f0806-ec67-4c81-a619-44d9346bc8ae</id>
+      <masked>false</masked>
+      <name>groupCode</name>
+   </variable>
+</TestCaseEntity>

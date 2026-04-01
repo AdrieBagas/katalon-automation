@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf4970db-60e3-40cd-80fb-4fa058d07b5c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b78892d9-0af3-47a4-b506-717eac1c3d59</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27be775f-f89f-46a6-95a5-9e24ef6393f5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9941122-6d8c-424d-83dc-03863cdfb746</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8bdbbc9c-1be7-4835-a742-a973ad92b080</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darren'</defaultValue>
+      <description></description>
+      <id>b78892d9-0af3-47a4-b506-717eac1c3d59</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>27be775f-f89f-46a6-95a5-9e24ef6393f5</id>
+      <masked>false</masked>
+      <name>newGroupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'GRDA'</defaultValue>
+      <description></description>
+      <id>b9941122-6d8c-424d-83dc-03863cdfb746</id>
+      <masked>false</masked>
+      <name>newGroupCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'GDGD'</defaultValue>
+      <description></description>
+      <id>8bdbbc9c-1be7-4835-a742-a973ad92b080</id>
+      <masked>false</masked>
+      <name>groupCode</name>
+   </variable>
+</TestCaseEntity>
