@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Custom Field accounting</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f9b5825-a38d-4c2f-9fbe-77edc00a2a2d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb318fe9-3c31-4cd7-b58a-3a7f674b0eb7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>cb318fe9-3c31-4cd7-b58a-3a7f674b0eb7</id>
+      <masked>false</masked>
+      <name>listName</name>
+   </variable>
+</TestCaseEntity>

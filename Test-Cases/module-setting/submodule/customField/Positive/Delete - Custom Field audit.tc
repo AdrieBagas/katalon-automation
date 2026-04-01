@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Custom Field audit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04d56934-71d7-4f5a-96c0-7364bab12e2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45a9a6f6-a01b-4f47-b13b-ba5556ccdead</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>45a9a6f6-a01b-4f47-b13b-ba5556ccdead</id>
+      <masked>false</masked>
+      <name>listName</name>
+   </variable>
+</TestCaseEntity>

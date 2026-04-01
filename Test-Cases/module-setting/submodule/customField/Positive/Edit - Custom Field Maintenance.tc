@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Custom Field Maintenance</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69bbd1e7-e064-47ea-a48f-4364e4f05105</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c3bc8f6-3df4-405b-b892-9cdfe2cb7f00</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d5f8f7c-488b-4353-935e-519d52603ce4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>2c3bc8f6-3df4-405b-b892-9cdfe2cb7f00</id>
+      <masked>false</masked>
+      <name>defaultName</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>1d5f8f7c-488b-4353-935e-519d52603ce4</id>
+      <masked>false</masked>
+      <name>defaultData</name>
+   </variable>
+</TestCaseEntity>
