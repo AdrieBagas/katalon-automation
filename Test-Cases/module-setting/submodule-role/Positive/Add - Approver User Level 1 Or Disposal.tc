@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Approver User Level 1 Or Disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b22cb84-03dd-485b-ba9d-78ec1d84b0e6</testCaseGuid>
+</TestCaseEntity>

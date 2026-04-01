@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Approver User Level 2 AND Borrowing Assignment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c3a8afd-739f-4bb1-a1dd-6803486b7867</testCaseGuid>
+</TestCaseEntity>

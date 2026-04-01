@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Approver User Level 1 Or Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ae7f60b-caf8-4529-81d7-f67dc28f7bfb</testCaseGuid>
+</TestCaseEntity>

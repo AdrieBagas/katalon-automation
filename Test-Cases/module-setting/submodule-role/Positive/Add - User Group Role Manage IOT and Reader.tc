@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - User Group Role Manage IOT and Reader</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2866e4d-d28b-4ec7-b838-312d46a9f222</testCaseGuid>
+</TestCaseEntity>

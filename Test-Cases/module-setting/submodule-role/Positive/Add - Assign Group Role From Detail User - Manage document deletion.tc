@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Assign Group Role From Detail User - Manage document deletion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d655882-c3c2-481f-bac4-e7c48a0a772a</testCaseGuid>
+</TestCaseEntity>

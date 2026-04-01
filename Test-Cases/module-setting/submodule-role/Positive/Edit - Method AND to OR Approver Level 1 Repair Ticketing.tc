@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Method AND to OR Approver Level 1 Repair Ticketing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fbed2df6-6b70-46b2-892f-2d84ccf152be</testCaseGuid>
+</TestCaseEntity>

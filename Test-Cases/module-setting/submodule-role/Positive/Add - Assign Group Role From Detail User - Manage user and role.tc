@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Assign Group Role From Detail User - Manage user and role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2917ce55-3025-476b-87eb-9a463544eb67</testCaseGuid>
+</TestCaseEntity>

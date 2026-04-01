@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Assign Group Role From Detail User - Manage purchase document</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>112df3b0-d2a3-44af-9f87-9f982ce0b15c</testCaseGuid>
+</TestCaseEntity>

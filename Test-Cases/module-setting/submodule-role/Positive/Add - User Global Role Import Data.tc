@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - User Global Role Import Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7aca357c-e86d-4a8c-9aec-d9bab13f704e</testCaseGuid>
+</TestCaseEntity>

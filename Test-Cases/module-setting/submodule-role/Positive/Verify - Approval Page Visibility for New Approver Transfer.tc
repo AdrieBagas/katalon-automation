@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify - Approval Page Visibility for New Approver Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>374e0227-ae71-4a17-9a7f-f06cff66cfcb</testCaseGuid>
+</TestCaseEntity>

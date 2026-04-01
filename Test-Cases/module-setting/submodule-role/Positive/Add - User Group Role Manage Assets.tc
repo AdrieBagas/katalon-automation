@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - User Group Role Manage Assets</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3cd4cc8e-e5c1-4190-a2d1-d49f345f7e2c</testCaseGuid>
+</TestCaseEntity>

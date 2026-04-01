@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add - Approver User Level 1 AND Repair Ticketing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>284fde64-2ea4-4945-8047-74ea06eeb324</testCaseGuid>
+</TestCaseEntity>

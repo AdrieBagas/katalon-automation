@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify - Approval Page Visibility for New Approver Borrow</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e18804c2-e491-4941-8623-07229ce634e7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Method OR to AND Approver Level 1 Disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dbf177eb-a1c1-48de-88a9-cc40f4c4bddb</testCaseGuid>
+</TestCaseEntity>

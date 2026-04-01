@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify - Approval Page Visibility for New Approver Maintenance Routine</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52cfe614-81c8-4538-9d94-4cbc98aba91b</testCaseGuid>
+</TestCaseEntity>

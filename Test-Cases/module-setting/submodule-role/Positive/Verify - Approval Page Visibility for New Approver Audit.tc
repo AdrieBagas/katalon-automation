@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify - Approval Page Visibility for New Approver Audit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31451346-43ce-434a-9bea-415883f6fa43</testCaseGuid>
+</TestCaseEntity>

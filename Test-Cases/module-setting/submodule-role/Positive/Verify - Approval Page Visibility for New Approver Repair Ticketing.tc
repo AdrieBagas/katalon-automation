@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify - Approval Page Visibility for New Approver Repair Ticketing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1be0aed-3911-4517-85d5-9c66578b1414</testCaseGuid>
+</TestCaseEntity>

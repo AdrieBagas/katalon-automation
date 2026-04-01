@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Inactivated Group Role - Manage TAG from Detail User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b54c8ce-0e91-4646-b50f-ec1436eef819</testCaseGuid>
+</TestCaseEntity>
