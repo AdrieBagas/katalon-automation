@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Back To Login</name>
+   <tag></tag>
+   <elementGuidId>8d284afd-68d5-4e4f-bcbd-2cc9d46de350</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@aria-label = 'Back to Login']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Back to Login&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>110df899-6115-44d5-9e28-1f6c87a124d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7c006a09-abc1-44ed-ba16-84c1fcac210c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Back to Login</value>
+      <webElementGuid>1ae5fb53-f5af-41df-baca-8103bc5dfb71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>!h-[42px] !text-base px-3 py-[10px] relative items-center justify-center inline-flex text-center text-xs h-[26px] w-max min-w-[26px] px-3 py-[7.6px] min-w-[26px] ring-inset rounded bg-transparent ring-transparent text-primary dark:text-primary-300 dark:hover:bg-primary-900 hover:bg-primary-bg-weak focus-visible:ring-1 focus-visible:ring-primary-600 dark:focus-visible:ring-primary-600 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none</value>
+      <webElementGuid>41223c05-a943-4dbc-abe7-3abf5c672156</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-name</name>
+      <type>Main</type>
+      <value>btn-back-to-login</value>
+      <webElementGuid>d603270f-ee41-4124-980e-6e03b71c6ae4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f5e49f81-908e-4254-b35f-e5495657eaf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>0daa315f-6e2d-41c1-99fb-132427d35547</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back to Login</value>
+      <webElementGuid>1ba019dd-80c1-49f3-a68c-2ae6403388ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@tagsamurai/ts-mfe-auth&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;h-screen p-6 bg-primary-50&quot;]/div[@class=&quot;h-full flex flex-col gap-6 py-[47.5px] px-6 bg-white&quot;]/div[@class=&quot;grid grid-cols-2 items-center gap-12 w-full h-full&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-[420px] mx-auto&quot;]/div[1]/div[@class=&quot;flex justify-center mt-3 gap-3&quot;]/button[@class=&quot;!h-[42px] !text-base px-3 py-[10px] relative items-center justify-center inline-flex text-center text-xs h-[26px] w-max min-w-[26px] px-3 py-[7.6px] min-w-[26px] ring-inset rounded bg-transparent ring-transparent text-primary dark:text-primary-300 dark:hover:bg-primary-900 hover:bg-primary-bg-weak focus-visible:ring-1 focus-visible:ring-primary-600 dark:focus-visible:ring-primary-600 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none&quot;]</value>
+      <webElementGuid>3d83af5c-3066-4843-bee3-eff82bb9d1bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>219372dd-43bd-4c0f-a316-3bf8a65987f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-auth']/div/div/div/div/div/div/div/div[2]/button</value>
+      <webElementGuid>5d7b610d-c937-48e1-8e62-1b7daab76396</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Password'])[1]/following::button[1]</value>
+      <webElementGuid>999e0d53-9202-4547-bef6-a4b885677b38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please input all required field!'])[1]/following::button[2]</value>
+      <webElementGuid>31ec4510-f96b-4baa-91ff-746387244fba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Simplest Way to Manage Your Asset'])[1]/preceding::button[1]</value>
+      <webElementGuid>81445554-dd70-49f2-8ce4-bd82923f6e7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[2]/button</value>
+      <webElementGuid>406b5e20-d11e-49a7-be9b-f407e9a1d98b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Back to Login' or . = 'Back to Login')]</value>
+      <webElementGuid>37136ed2-3057-4156-8b51-d49055c113ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

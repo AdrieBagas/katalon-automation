@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Login With Password</name>
+   <tag></tag>
+   <elementGuidId>849fea26-51d4-4d81-89f0-4034077d491f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-auth']/div/div/div/div/div/div/div/div[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Log in with Password&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>415b3a1d-dfa6-4925-985e-2b0131f3ece4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>duration-200 whitespace-nowrap font-medium tracking-[0.24px] leading-3 flex-1</value>
+      <webElementGuid>206e1402-9307-459b-96db-cf58a3e8bfa8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>8029bb08-9733-4294-8d97-1beb0cdd638c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in with Password</value>
+      <webElementGuid>dfb49aef-d4f8-4613-aca0-ed8cf2327d7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@tagsamurai/ts-mfe-auth&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;h-screen p-6 bg-primary-50&quot;]/div[@class=&quot;h-full flex flex-col gap-6 py-[47.5px] px-6 bg-white&quot;]/div[@class=&quot;grid grid-cols-2 items-center gap-12 w-full h-full&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-[420px] mx-auto&quot;]/div[1]/div[@class=&quot;flex justify-center mt-3 gap-3&quot;]/button[@class=&quot;!h-[42px] !text-base !font-medium px-3 py-[10px] relative items-center justify-center inline-flex text-center text-xs h-[26px] w-max min-w-[26px] px-3 py-[7.6px] min-w-[26px] ring-inset rounded bg-transparent ring-transparent text-primary dark:text-primary-300 dark:hover:bg-primary-900 hover:bg-primary-bg-weak focus-visible:ring-1 focus-visible:ring-primary-600 dark:focus-visible:ring-primary-600 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none&quot;]/span[@class=&quot;duration-200 whitespace-nowrap font-medium tracking-[0.24px] leading-3 flex-1&quot;]</value>
+      <webElementGuid>54e1ad64-111b-4996-bb9b-9695156986c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-auth']/div/div/div/div/div/div/div/div[2]/button/span</value>
+      <webElementGuid>cd087da3-97e3-43e4-aa3c-87ed1bdae827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify and Log in'])[1]/following::span[1]</value>
+      <webElementGuid>4ee3a285-7346-47e5-8cf3-eab84ed54659</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Re-Send OTP'])[1]/following::span[2]</value>
+      <webElementGuid>faf5e681-951f-44fd-b438-e1a38c3a9b05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Simplest Way to Manage Your Asset'])[1]/preceding::span[1]</value>
+      <webElementGuid>0d96d777-05a5-4caf-a336-156682e1e6a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::span[1]</value>
+      <webElementGuid>4dffdd71-73ba-45f1-aae0-5d203bca8e52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in with Password']/parent::*</value>
+      <webElementGuid>f4b6235c-1d38-41f7-82a7-0b036c7ae8fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[2]/button/span</value>
+      <webElementGuid>caccb188-c9f3-4c9f-a03e-15fa872dda98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log in with Password' or . = 'Log in with Password')]</value>
+      <webElementGuid>c968886d-6d37-4863-ba63-1814f4631f4e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

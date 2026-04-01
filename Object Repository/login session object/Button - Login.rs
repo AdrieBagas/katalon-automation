@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Login</name>
+   <tag></tag>
+   <elementGuidId>edd29d54-885d-4fe5-ab59-f04cc0bd9960</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button' and text{]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Log in&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fa75c48b-2f2a-4474-a2d6-daabaf21025d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>64e0d2c0-9ffd-473e-8fd6-f68406b73315</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>4d956ceb-7055-427f-ad65-1467891a9124</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full min-w-full !h-[42px] !text-base !font-semibold relative items-center justify-center inline-flex text-center text-xs h-[26px] w-max min-w-[26px] px-3 py-[7.6px] min-w-[26px] ring-inset shadow-sm rounded text-white dark:!text-primary-800 bg-primary dark:bg-primary-300 ring-1 ring-primary dark:ring-primary-300 focus-visible:bg-primary-600 focus-visible:ring-primary-600 focus-visible:ring-offset-0 hover:bg-primary-strong dark:hover:bg-primary-400 hover:ring-primary-strong dark:hover:ring-primary-400 focus-visible:ring-1 focus-visible:ring-primary-600 dark:focus-visible:ring-primary-600 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none</value>
+      <webElementGuid>f4123661-134e-4779-98be-a7b0b931a7a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-name</name>
+      <type>Main</type>
+      <value>btn-login</value>
+      <webElementGuid>79e3120b-b129-4102-b57a-568f0a1af75c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8a7c16ce-9dac-4731-8c63-bd60a1e2642b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>4b008bae-eb2c-459d-a951-d506d1b3fa8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>c00c91c1-ce04-4ff1-b7d1-62e2ff61a2ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@tagsamurai/ts-mfe-auth&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;h-screen p-6 bg-primary-50&quot;]/div[@class=&quot;h-full flex flex-col gap-6 py-[47.5px] px-6 bg-white&quot;]/div[@class=&quot;grid grid-cols-2 items-center gap-12 w-full h-full&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-[420px] mx-auto&quot;]/div[1]/div[@class=&quot;flex flex-col gap-3&quot;]/div[@class=&quot;flex flex-col gap-3 w-full&quot;]/button[@class=&quot;w-full min-w-full !h-[42px] !text-base !font-semibold relative items-center justify-center inline-flex text-center text-xs h-[26px] w-max min-w-[26px] px-3 py-[7.6px] min-w-[26px] ring-inset shadow-sm rounded text-white dark:!text-primary-800 bg-primary dark:bg-primary-300 ring-1 ring-primary dark:ring-primary-300 focus-visible:bg-primary-600 focus-visible:ring-primary-600 focus-visible:ring-offset-0 hover:bg-primary-strong dark:hover:bg-primary-400 hover:ring-primary-strong dark:hover:ring-primary-400 focus-visible:ring-1 focus-visible:ring-primary-600 dark:focus-visible:ring-primary-600 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none&quot;]</value>
+      <webElementGuid>2639ac90-2275-45fd-8435-e496198171e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>896f5d54-6091-419f-9232-c0ddddd76be2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-auth']/div/div/div/div/div/div/div/div/div[2]/button</value>
+      <webElementGuid>2a9409a5-5f2a-41c1-bbd4-d35c18aeb832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please input all required field!'])[1]/following::button[1]</value>
+      <webElementGuid>e3a3bc34-3072-4591-85c5-a80382e52f01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a password'])[1]/following::button[1]</value>
+      <webElementGuid>0121b92b-9a00-4b74-be1a-8521b06678dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password'])[1]/preceding::button[1]</value>
+      <webElementGuid>b6e40908-642e-4356-aec5-62e400607d88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div/div/div[2]/button</value>
+      <webElementGuid>baa0b627-ca15-4002-8c63-b6a33dc3a960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>ba24f5b6-be34-4dfa-b181-94d72e6c7961</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

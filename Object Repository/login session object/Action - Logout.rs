@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Action - Logout</name>
+   <tag></tag>
+   <elementGuidId>50a77f21-cf35-4d90-91d5-22450f10bf8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='user-panel']/div/div/div[2]/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Logout&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>93e6a960-ce4f-4d8d-94cb-76d48df583e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a08cdd00-503b-4592-8306-f7a04dbf66fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-start gap-2 px-4 py-1.5 hover:bg-surface-50 text-xs no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>ac940628-3ee0-49c2-82fd-7199628791fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>52499759-d387-45cb-ba58-9084dbd0fd1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>65196354-c3fe-447d-9d2d-ab0ca4666182</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>a3b5b98a-9d9a-4089-a28b-7acd0d12521b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-panel&quot;)/div[@class=&quot;items-center flex&quot;]/div[@class=&quot;w-[240px] py-3 flex flex-col gap-3&quot;]/div[@class=&quot;border-t border-general-100&quot;]/ul[@class=&quot;list-none m-0 p-0 outline-none transition-shadow&quot;]/li[@class=&quot;cursor-pointer&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-1.5 hover:bg-surface-50 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>79f69d3c-6f57-46bb-aa8c-12dee506ddaf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='user-panel']/div/div/div[2]/ul/li/a</value>
+      <webElementGuid>d336f0f6-3016-438d-96b2-6e7ee2c742a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise 30 Prod'])[2]/following::a[1]</value>
+      <webElementGuid>b5b4e675-a1fb-4aa7-821f-364dc5dfd41b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='user1enterprise30prod@qwertysystem.net'])[1]/following::a[1]</value>
+      <webElementGuid>c0cfa0a9-a64a-4fd0-8a0d-0df3d49a8726</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a</value>
+      <webElementGuid>47a5dc50-fd85-4dcb-bfed-2bf6a9d9e42e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>433512b7-98c7-4ca6-9c01-10ea206a289a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Request OTP</name>
+   <tag></tag>
+   <elementGuidId>e2282e8c-36ca-4dd7-b8f4-4727761492ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@aria-label = 'Request OTP']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Request OTP&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>645b3992-8d4c-413a-a033-398608b40808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>81b125e4-0776-484e-81dc-e4f35bab3eae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Request OTP</value>
+      <webElementGuid>9b0d22a5-3b41-432b-8115-6c1b3e00cd91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full min-w-full !h-[42px] !text-base relative items-center justify-center inline-flex text-center text-xs h-[26px] w-max min-w-[26px] px-3 py-[7.6px] min-w-[26px] ring-inset shadow-sm rounded text-white dark:!text-primary-800 bg-primary dark:bg-primary-300 ring-1 ring-primary dark:ring-primary-300 focus-visible:bg-primary-600 focus-visible:ring-primary-600 focus-visible:ring-offset-0 hover:bg-primary-strong dark:hover:bg-primary-400 hover:ring-primary-strong dark:hover:ring-primary-400 focus-visible:ring-1 focus-visible:ring-primary-600 dark:focus-visible:ring-primary-600 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none</value>
+      <webElementGuid>46cc3198-9fe1-4285-afe8-18ecd316bb5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-name</name>
+      <type>Main</type>
+      <value>btn-request-otp</value>
+      <webElementGuid>80824b53-f205-4363-afc2-389cd7579317</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cc41ab02-e866-4a41-ad19-cee12a5c71ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>root</value>
+      <webElementGuid>7fafa97c-9c50-4dea-a9eb-9524f31bcf09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request OTP</value>
+      <webElementGuid>f91c9889-b284-4b2f-816d-0246296c6aff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@tagsamurai/ts-mfe-auth&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;h-screen p-6 bg-primary-50&quot;]/div[@class=&quot;h-full flex flex-col gap-6 py-[47.5px] px-6 bg-white&quot;]/div[@class=&quot;grid grid-cols-2 items-center gap-12 w-full h-full&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-[420px] mx-auto&quot;]/div[1]/div[@class=&quot;flex flex-col gap-7&quot;]/div[@class=&quot;flex flex-col gap-3 w-full&quot;]/button[@class=&quot;w-full min-w-full !h-[42px] !text-base relative items-center justify-center inline-flex text-center text-xs h-[26px] w-max min-w-[26px] px-3 py-[7.6px] min-w-[26px] ring-inset shadow-sm rounded text-white dark:!text-primary-800 bg-primary dark:bg-primary-300 ring-1 ring-primary dark:ring-primary-300 focus-visible:bg-primary-600 focus-visible:ring-primary-600 focus-visible:ring-offset-0 hover:bg-primary-strong dark:hover:bg-primary-400 hover:ring-primary-strong dark:hover:ring-primary-400 focus-visible:ring-1 focus-visible:ring-primary-600 dark:focus-visible:ring-primary-600 transition duration-200 ease-in-out cursor-pointer overflow-hidden select-none&quot;]</value>
+      <webElementGuid>fcf6e1db-4caa-4d67-8f95-c2341472459a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>8ecdb030-0011-4313-a51e-ef2c76c5fe1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-auth']/div/div/div/div/div/div/div/div/div[2]/button</value>
+      <webElementGuid>3ebd0a27-4a1b-4aae-b973-6d2392dc0eeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please input all required field!'])[1]/following::button[1]</value>
+      <webElementGuid>62dd8f4c-396e-4764-ad8e-6c8a5a414940</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::button[1]</value>
+      <webElementGuid>5b6ec3b4-0d86-4b0d-ba12-5daa4355a57b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in with Password'])[1]/preceding::button[1]</value>
+      <webElementGuid>28f083d8-3fdb-4482-9602-bd99088fc952</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>d32127dc-6fd0-48b2-a2e8-9ec3f5109733</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Request OTP' or . = 'Request OTP')]</value>
+      <webElementGuid>d815adce-d0f1-419e-8968-c6ba4467a892</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
