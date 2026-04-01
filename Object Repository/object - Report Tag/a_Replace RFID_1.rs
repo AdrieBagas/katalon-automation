@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Replace RFID_1</name>
+   <tag></tag>
+   <elementGuidId>d026dd4f-02b0-4c4b-ae74-7badd69714d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='bulkaction-overlay-menu_0']/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Replace RFID&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>659133e1-9119-4c57-999e-df3661f1de89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>efabd20b-4c09-4e12-a456-060800ef09cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-start gap-2 px-4 py-1.5 hover:bg-surface-50 dark:hover:bg-grayscale-800 text-xs no-underline overflow-hidden cursor-pointer select-none</value>
+      <webElementGuid>2ccf53bd-a1dc-4b71-8ae6-72ce1b89de80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>ementGuid>9d6a5e03-7b12-4123-8e0e-0dadc4eb2ba4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>ementGuid>ec1916f9-ec45-4fa6-90cf-a157860f508c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Replace RFID</value>
+      <webElementGuid>6b5356e6-e651-4660-bf9a-d99869113ed9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bulkaction-overlay-menu_0&quot;)/div[@class=&quot;w-full rounded-md text-inherit dark:text-inherit transition-shadow duration-200&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-1.5 hover:bg-surface-50 dark:hover:bg-grayscale-800 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]</value>
+      <webElementGuid>0b61ef63-ad78-4be0-9425-170ed11fcfa7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='bulkaction-overlay-menu_0']/div/a</value>
+      <webElementGuid>012dc655-528d-4a41-ab68-3847d8c4352e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reported Date'])[3]/following::a[1]</value>
+      <webElementGuid>bad6df52-f41a-4ae7-a66b-c1c7739e68e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group'])[3]/following::a[1]</value>
+      <webElementGuid>59a71714-1991-4332-8444-cf68e9e62b82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Decline Report'])[1]/preceding::a[1]</value>
+      <webElementGuid>ac0fc214-cd0b-46ff-89fd-cfd566b2a517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/a</value>
+      <webElementGuid>2fcbb8e6-0f29-4d32-ac28-5cc10da67481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Replace RFID' or . = 'Replace RFID')]</value>
+      <webElementGuid>bf8a7f4b-0f71-4c71-8d92-8b2b136b6200</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
