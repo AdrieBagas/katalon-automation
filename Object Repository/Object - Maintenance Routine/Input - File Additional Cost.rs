@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - File Additional Cost</name>
+   <tag></tag>
+   <elementGuidId>b08f5612-56ae-4814-8021-2f37e368d1e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'file' and @accept = '.pdf,.xlsx,.xls,.docx,image/*']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>af93a187-b34d-46aa-8239-bd68dfd4e2b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>bbb5bbb7-c5da-4a33-a6ab-c2705f430391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>.pdf,.xlsx,.xls,.docx,image/*</value>
+      <webElementGuid>bd8ce3ed-1927-4165-97d4-22183702f6b3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
