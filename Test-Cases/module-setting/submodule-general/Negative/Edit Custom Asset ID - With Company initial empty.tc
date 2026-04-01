@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Custom Asset ID - With Company initial empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b015975d-393f-455d-8968-f2a1cee840b2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Custom Asset ID - With all data uncheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0841f9a-10f5-42c5-969f-a1627a588bf5</testCaseGuid>
+</TestCaseEntity>
