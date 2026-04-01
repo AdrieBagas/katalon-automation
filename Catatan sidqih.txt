@@ -1,0 +1,9 @@
+- Submodule Available: 
+  All Done
+- Submodule Borrow: 
+  borrow from pre list (Approver & Non Approver) Done
+  borrow from transaction (Approver & Non Approver) Done
+- Submodule Damage: 
+Non TAG (Done)
+RFID (Done)
+QR (Done)

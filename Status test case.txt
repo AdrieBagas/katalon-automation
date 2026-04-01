@@ -1,0 +1,9 @@
+- Submodule Device
+	- Sub-submodule Tag:
+		- QR Tag : Done
+		- RFID Tag : To be returned, available, damage/missing belum
+		- RFID & QR Tag : belum
+		- Change Tag Type : belum
+		- Pair Tag : Done
+		- Replace Tag : (RFID, QR) Done. RFID & QR belum
+		- Report Tag : (RFID, QR) Done. RFID & QR belum
