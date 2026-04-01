@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Sub Category - Cancel - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac4b4b55-f1d9-4b07-8d8b-f3524418f805</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1df28b43-e1ec-414f-84ec-9e113c16fc52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01a38359-c88e-4992-9aac-c9317817ba53</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darrens'</defaultValue>
+      <description></description>
+      <id>1df28b43-e1ec-414f-84ec-9e113c16fc52</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darrens'</defaultValue>
+      <description></description>
+      <id>01a38359-c88e-4992-9aac-c9317817ba53</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+</TestCaseEntity>

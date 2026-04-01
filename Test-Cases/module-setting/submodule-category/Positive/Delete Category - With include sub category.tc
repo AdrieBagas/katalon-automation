@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Category - With include sub category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9c6a20c-6b9f-45cd-8605-7470845707f0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4200058-b6d5-4e71-91c7-76d2a4faf785</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Stay'</defaultValue>
+      <description></description>
+      <id>e4200058-b6d5-4e71-91c7-76d2a4faf785</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

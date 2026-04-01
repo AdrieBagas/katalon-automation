@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Category - With stay in form - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ed290ef-2a31-42d0-9037-6af97101226c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01562196-72a8-4c91-b400-d557ceb73b23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cd5b52c-9f0f-4ecb-b97a-01a3e3ac2aff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a12e8b8b-07a2-4640-b457-11df25da12e7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Stay'</defaultValue>
+      <description></description>
+      <id>01562196-72a8-4c91-b400-d557ceb73b23</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Stay'</defaultValue>
+      <description></description>
+      <id>6cd5b52c-9f0f-4ecb-b97a-01a3e3ac2aff</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'SCST'</defaultValue>
+      <description></description>
+      <id>a12e8b8b-07a2-4640-b457-11df25da12e7</id>
+      <masked>false</masked>
+      <name>subCategoryCode</name>
+   </variable>
+</TestCaseEntity>

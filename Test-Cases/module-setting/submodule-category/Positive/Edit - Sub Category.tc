@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Sub Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0173a30d-9798-4b66-a1ef-ea72472a5c61</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>997e4947-643d-45cd-bd9e-30ba27cd3609</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48c504a0-d8c8-44ed-a5fe-537a2f2cbdac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9fc6886f-132d-460d-94ef-adc1a9c252c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36154f88-0251-49b1-a08c-b8d9f8d04fa1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4521f83-7a70-4905-9271-b54134c48cac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darrens'</defaultValue>
+      <description></description>
+      <id>997e4947-643d-45cd-bd9e-30ba27cd3609</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darren'</defaultValue>
+      <description></description>
+      <id>48c504a0-d8c8-44ed-a5fe-537a2f2cbdac</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darrens'</defaultValue>
+      <description></description>
+      <id>9fc6886f-132d-460d-94ef-adc1a9c252c6</id>
+      <masked>false</masked>
+      <name>newSubCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'SCDA'</defaultValue>
+      <description></description>
+      <id>36154f88-0251-49b1-a08c-b8d9f8d04fa1</id>
+      <masked>false</masked>
+      <name>subCategoryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'SCDS'</defaultValue>
+      <description></description>
+      <id>c4521f83-7a70-4905-9271-b54134c48cac</id>
+      <masked>false</masked>
+      <name>newSubCategoryCode</name>
+   </variable>
+</TestCaseEntity>

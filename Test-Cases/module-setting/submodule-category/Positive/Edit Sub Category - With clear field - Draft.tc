@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Sub Category - With clear field - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>28fa6e8c-4ae1-4347-80a1-45edb938d1f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9b44476-acd4-4125-b916-5d4e3f6b1a8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3be4032f-3cba-4924-b329-0cc3cfb48af7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darrens'</defaultValue>
+      <description></description>
+      <id>c9b44476-acd4-4125-b916-5d4e3f6b1a8b</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darrens'</defaultValue>
+      <description></description>
+      <id>3be4032f-3cba-4924-b329-0cc3cfb48af7</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+</TestCaseEntity>

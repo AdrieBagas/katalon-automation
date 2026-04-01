@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Category - Cancel - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0969f37e-3c49-4bc2-ba2e-c17b7b0ee883</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5536fd07-4512-4f91-8351-7496c3a0f8d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darren'</defaultValue>
+      <description></description>
+      <id>5536fd07-4512-4f91-8351-7496c3a0f8d6</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

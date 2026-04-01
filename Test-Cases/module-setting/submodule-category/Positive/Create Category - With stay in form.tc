@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Category - With stay in form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12583232-5a2f-45b7-ab97-df61da2ea19d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12935bb2-52fc-498b-8984-a1d2978ee752</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1bb930ed-8687-4cac-b929-04a66f9224c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Stay'</defaultValue>
+      <description></description>
+      <id>12935bb2-52fc-498b-8984-a1d2978ee752</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'CAST'</defaultValue>
+      <description></description>
+      <id>1bb930ed-8687-4cac-b929-04a66f9224c5</id>
+      <masked>false</masked>
+      <name>categoryCode</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Category - Cancel - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9359908d-5500-432b-8d08-24c89934a69e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b94bf6e-b15c-4643-8586-3b382fd84cbe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darrens'</defaultValue>
+      <description></description>
+      <id>3b94bf6e-b15c-4643-8586-3b382fd84cbe</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

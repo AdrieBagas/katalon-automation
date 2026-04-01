@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3dfd0b2-84b8-48bf-8e26-e4dc7c1c0ca3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad216ec6-1cff-4327-ba6c-6356df5b6e0c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51f924a7-6bda-4706-b5bd-d5ad2264f0c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2092760d-be7a-4d8f-922c-fce7f615f994</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darren'</defaultValue>
+      <description></description>
+      <id>ad216ec6-1cff-4327-ba6c-6356df5b6e0c</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darren'</defaultValue>
+      <description></description>
+      <id>51f924a7-6bda-4706-b5bd-d5ad2264f0c6</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'SCDA'</defaultValue>
+      <description></description>
+      <id>2092760d-be7a-4d8f-922c-fce7f615f994</id>
+      <masked>false</masked>
+      <name>subCategoryCode</name>
+   </variable>
+</TestCaseEntity>

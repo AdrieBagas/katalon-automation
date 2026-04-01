@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Sub Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42cd4fbf-49b3-4990-8aa8-81777b8c06a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44e36891-16e7-4396-a81f-c970143081dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3ecba39-bdfb-4ccf-9795-1ed36a316fba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darrens'</defaultValue>
+      <description></description>
+      <id>44e36891-16e7-4396-a81f-c970143081dd</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darrens'</defaultValue>
+      <description></description>
+      <id>c3ecba39-bdfb-4ccf-9795-1ed36a316fba</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+</TestCaseEntity>

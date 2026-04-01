@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a0b0a84-6ed2-49b4-b299-9b6b3a231ae6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4de5f4ba-d780-41d5-97ec-6e9a069b8c48</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sub Darren Level 3'</defaultValue>
+      <description></description>
+      <id>4de5f4ba-d780-41d5-97ec-6e9a069b8c48</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

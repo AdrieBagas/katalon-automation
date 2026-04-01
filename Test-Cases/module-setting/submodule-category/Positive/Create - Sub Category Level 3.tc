@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Sub Category Level 3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>993ad0c0-be74-414c-80cc-e0cc8c0ab99d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37c86894-5478-4ec3-b720-ebaa460e839c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a4cbb59-0efa-4736-a642-e14636b6c750</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bee832ce-8127-4471-8d9a-6b4038d0c7f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5a3bc2d-55b4-4b08-a31c-0ece8b819c43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86d6db49-3bfe-4493-ad55-9dc698104c76</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darren'</defaultValue>
+      <description></description>
+      <id>37c86894-5478-4ec3-b720-ebaa460e839c</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darren'</defaultValue>
+      <description></description>
+      <id>8a4cbb59-0efa-4736-a642-e14636b6c750</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'SCDA'</defaultValue>
+      <description></description>
+      <id>bee832ce-8127-4471-8d9a-6b4038d0c7f8</id>
+      <masked>false</masked>
+      <name>subCategoryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Darren Level 3'</defaultValue>
+      <description></description>
+      <id>f5a3bc2d-55b4-4b08-a31c-0ece8b819c43</id>
+      <masked>false</masked>
+      <name>level3CategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'SDL3'</defaultValue>
+      <description></description>
+      <id>86d6db49-3bfe-4493-ad55-9dc698104c76</id>
+      <masked>false</masked>
+      <name>level3CategoryCode</name>
+   </variable>
+</TestCaseEntity>

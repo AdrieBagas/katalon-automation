@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Category - With clear field reset - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22332090-68a9-4ecb-9beb-e56af8c23d2b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1109a11f-d557-49cf-899f-7ef72520b3ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darren'</defaultValue>
+      <description></description>
+      <id>1109a11f-d557-49cf-899f-7ef72520b3ee</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

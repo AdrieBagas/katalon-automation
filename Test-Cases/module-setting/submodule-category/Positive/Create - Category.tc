@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f786526c-9592-49ff-958f-168e7af3ca0a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5194f43-d3f2-4e43-ad93-d8e968b3bb30</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60a6ada9-6713-495d-a8a4-724abb9829c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darren'</defaultValue>
+      <description></description>
+      <id>e5194f43-d3f2-4e43-ad93-d8e968b3bb30</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'CADA'</defaultValue>
+      <description></description>
+      <id>60a6ada9-6713-495d-a8a4-724abb9829c4</id>
+      <masked>false</masked>
+      <name>categoryCode</name>
+   </variable>
+</TestCaseEntity>

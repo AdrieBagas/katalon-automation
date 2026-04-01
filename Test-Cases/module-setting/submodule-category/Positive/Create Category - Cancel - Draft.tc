@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Category - Cancel - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30c2e70d-f4d2-4ab5-8ecd-f742f4b5385f</testCaseGuid>
+</TestCaseEntity>

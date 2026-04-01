@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>924c1074-e67b-4c83-a933-4a1eda8acdf8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff0a0d48-5d01-44f0-be19-dee5b79d370b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fbeeed5d-0645-4474-9e53-00f02ad000aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fead6cc9-cb2e-406d-881a-f78d8934737a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49734a1d-5dee-4120-aef7-762987c2549c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darren'</defaultValue>
+      <description></description>
+      <id>ff0a0d48-5d01-44f0-be19-dee5b79d370b</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'CADA'</defaultValue>
+      <description></description>
+      <id>fbeeed5d-0645-4474-9e53-00f02ad000aa</id>
+      <masked>false</masked>
+      <name>categoryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Category Darrens'</defaultValue>
+      <description></description>
+      <id>fead6cc9-cb2e-406d-881a-f78d8934737a</id>
+      <masked>false</masked>
+      <name>newCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'CADS'</defaultValue>
+      <description></description>
+      <id>49734a1d-5dee-4120-aef7-762987c2549c</id>
+      <masked>false</masked>
+      <name>newCategoryCode</name>
+   </variable>
+</TestCaseEntity>
