@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create User - From Detail user non login user With stay in form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a51a814d-dca2-4076-8a53-145c8ba9f2cf</testCaseGuid>
+</TestCaseEntity>

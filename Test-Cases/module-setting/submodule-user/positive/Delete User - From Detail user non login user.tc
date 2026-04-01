@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete User - From Detail user non login user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>928c6880-467e-468c-b7cf-819e228fcc54</testCaseGuid>
+</TestCaseEntity>

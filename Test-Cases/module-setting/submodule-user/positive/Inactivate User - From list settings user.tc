@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Inactivate User - From list settings user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e516fdd0-ddbe-4480-9083-c26a5298cd6b</testCaseGuid>
+</TestCaseEntity>

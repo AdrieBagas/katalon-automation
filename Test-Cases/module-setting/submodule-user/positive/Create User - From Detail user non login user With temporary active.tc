@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create User - From Detail user non login user With temporary active</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d2d4625f-b5c9-4d48-99ba-70d2f1ced18a</testCaseGuid>
+</TestCaseEntity>
