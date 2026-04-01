@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Custom Field purchase</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d2f6b31-d096-4a45-843f-473df124d5e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72421302-0ca7-43ee-8a9c-c0883df61c88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>72421302-0ca7-43ee-8a9c-c0883df61c88</id>
+      <masked>false</masked>
+      <name>listName</name>
+   </variable>
+</TestCaseEntity>

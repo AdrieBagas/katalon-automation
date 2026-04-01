@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Custom Field With Required Option</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f8ac1d1-e6a6-4497-ad57-e104ccbcbf8a</testCaseGuid>
+</TestCaseEntity>

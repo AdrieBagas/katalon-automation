@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Custom Field With data type datetime</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc6ae9c2-dbd5-4ef2-ac14-529425cd58b5</testCaseGuid>
+</TestCaseEntity>

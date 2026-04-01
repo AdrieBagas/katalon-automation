@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Custom Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c0757e2-a5b4-4ceb-a185-a987d65c6e31</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0badf6ab-0efe-4107-b0d2-70228ed77bbb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>0badf6ab-0efe-4107-b0d2-70228ed77bbb</id>
+      <masked>false</masked>
+      <name>listName</name>
+   </variable>
+</TestCaseEntity>
