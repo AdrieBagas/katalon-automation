@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Sub Category - With code empty - Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f55b4d22-e6ea-4732-904f-885c282af1e3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0bcfed24-9086-4383-a059-2a74687dfb9b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0087d1ee-99b3-4b78-89a9-1c5f4e39a81f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Category Darrens'</defaultValue>
+      <description></description>
+      <id>0bcfed24-9086-4383-a059-2a74687dfb9b</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Category Darrens'</defaultValue>
+      <description></description>
+      <id>0087d1ee-99b3-4b78-89a9-1c5f4e39a81f</id>
+      <masked>false</masked>
+      <name>subCategoryName</name>
+   </variable>
+</TestCaseEntity>

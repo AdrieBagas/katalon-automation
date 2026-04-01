@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Category - With code already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37643aa1-a354-436d-843e-430f7e0c2af1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49ef9530-c5cd-4065-8228-7220468860a7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'DEF'</defaultValue>
+      <description></description>
+      <id>49ef9530-c5cd-4065-8228-7220468860a7</id>
+      <masked>false</masked>
+      <name>categoryCode</name>
+   </variable>
+</TestCaseEntity>
