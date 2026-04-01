@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - New Group - Stay on this form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e01b5369-bfc4-40e7-a060-82e42d9eafe6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5baeeb05-8cf0-43f5-9790-214f61d88126</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>367989da-3816-4179-b5b9-d626b43cc327</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Stay'</defaultValue>
+      <description></description>
+      <id>367989da-3816-4179-b5b9-d626b43cc327</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

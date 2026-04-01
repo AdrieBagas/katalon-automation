@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - New Subgroup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49953d6f-0a0d-443f-bf6c-0ce519a1c674</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d86d972-6f08-4c35-b7e1-d33e979ad45e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>456fe47f-355a-449f-bcbd-9ff8c0ddc782</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>119e7ecb-c4b5-43e1-afb7-7f9cf885db30</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darren'</defaultValue>
+      <description></description>
+      <id>8d86d972-6f08-4c35-b7e1-d33e979ad45e</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Group Darren'</defaultValue>
+      <description></description>
+      <id>456fe47f-355a-449f-bcbd-9ff8c0ddc782</id>
+      <masked>false</masked>
+      <name>subGroupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'SGDA'</defaultValue>
+      <description></description>
+      <id>119e7ecb-c4b5-43e1-afb7-7f9cf885db30</id>
+      <masked>false</masked>
+      <name>subGroupCode</name>
+   </variable>
+</TestCaseEntity>

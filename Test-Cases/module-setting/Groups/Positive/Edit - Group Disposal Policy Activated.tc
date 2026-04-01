@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group Disposal Policy Activated</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd9b9f30-7690-499c-acf2-92191e16261f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6234d0e4-875e-4840-af9d-4fa24eb52e0c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Disposable Group Darrens'</defaultValue>
+      <description></description>
+      <id>6234d0e4-875e-4840-af9d-4fa24eb52e0c</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

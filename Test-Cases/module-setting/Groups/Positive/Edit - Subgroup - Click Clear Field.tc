@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Subgroup - Click Clear Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f3ff9c4d-5945-44c7-ada7-af3d94fbf75e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd270448-ffbb-41dc-91c8-93fa2505595e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>902ed94f-c29f-41d2-af1f-5f089ba4abd0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>bd270448-ffbb-41dc-91c8-93fa2505595e</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Group Darrens'</defaultValue>
+      <description></description>
+      <id>902ed94f-c29f-41d2-af1f-5f089ba4abd0</id>
+      <masked>false</masked>
+      <name>subGroupName</name>
+   </variable>
+</TestCaseEntity>

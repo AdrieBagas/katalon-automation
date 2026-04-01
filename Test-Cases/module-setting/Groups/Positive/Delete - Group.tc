@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Group</name>
+   <tag>done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4677560e-6db3-41f9-bcae-2cac295c232c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>676ba831-9693-422f-8c9e-9895a1258c9f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Stay'</defaultValue>
+      <description></description>
+      <id>676ba831-9693-422f-8c9e-9895a1258c9f</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

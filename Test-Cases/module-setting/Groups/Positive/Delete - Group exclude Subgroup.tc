@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Group exclude Subgroup</name>
+   <tag>done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e8df2f8e-e8bb-4cd0-9c35-95938d875de3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0124f5d2-274c-4c7a-9d8e-7ad96a5d9846</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>0124f5d2-274c-4c7a-9d8e-7ad96a5d9846</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

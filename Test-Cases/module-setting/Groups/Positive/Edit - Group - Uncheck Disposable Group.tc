@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Group - Uncheck Disposable Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e079d5bb-0f50-47fe-8008-c5ecdce70b1a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f38913f3-296a-4fad-bc94-5d9b76a095ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darrens'</defaultValue>
+      <description></description>
+      <id>f38913f3-296a-4fad-bc94-5d9b76a095ff</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+</TestCaseEntity>

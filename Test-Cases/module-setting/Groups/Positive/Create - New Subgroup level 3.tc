@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - New Subgroup level 3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09f6fc1e-b8c8-4e1c-892b-88e3db6bee2e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15a7bf2c-a71e-4940-8bfd-ad1fe5e3b35f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9313c3c1-baa8-42fa-8533-ea505b35cf15</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05888b17-f7b7-45a2-b9ec-0b6efc4299f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Group Darren'</defaultValue>
+      <description></description>
+      <id>15a7bf2c-a71e-4940-8bfd-ad1fe5e3b35f</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sub Group Darren'</defaultValue>
+      <description></description>
+      <id>9313c3c1-baa8-42fa-8533-ea505b35cf15</id>
+      <masked>false</masked>
+      <name>subGroupName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Level 3 Darren'</defaultValue>
+      <description></description>
+      <id>05888b17-f7b7-45a2-b9ec-0b6efc4299f6</id>
+      <masked>false</masked>
+      <name>level3GroupName</name>
+   </variable>
+</TestCaseEntity>
