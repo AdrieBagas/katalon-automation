@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Depreciation Group - With clear field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f4047ff-41e3-4af0-8603-89f7e79f1d29</testCaseGuid>
+</TestCaseEntity>

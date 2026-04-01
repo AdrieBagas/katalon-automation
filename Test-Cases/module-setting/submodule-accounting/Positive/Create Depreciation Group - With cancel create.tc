@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Depreciation Group - With cancel create</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b4912cd-8b96-4d70-bd44-944a98db05a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5908c774-eb3b-41be-9899-d924a3a458d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73b2f628-c81b-4b81-983f-5c6ec1c5ab81</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c51ff703-44c3-4284-bde0-3edbc0041fe7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'smndasndkajsdn'</defaultValue>
+      <description></description>
+      <id>5908c774-eb3b-41be-9899-d924a3a458d4</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'12'</defaultValue>
+      <description></description>
+      <id>73b2f628-c81b-4b81-983f-5c6ec1c5ab81</id>
+      <masked>false</masked>
+      <name>usefulLife</name>
+   </variable>
+   <variable>
+      <defaultValue>'2374982'</defaultValue>
+      <description></description>
+      <id>c51ff703-44c3-4284-bde0-3edbc0041fe7</id>
+      <masked>false</masked>
+      <name>salvageValue</name>
+   </variable>
+</TestCaseEntity>

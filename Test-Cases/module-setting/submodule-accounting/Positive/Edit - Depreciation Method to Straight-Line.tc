@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Depreciation Method to Straight-Line</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a3080fa-7638-4fd0-be05-041bd82257ba</testCaseGuid>
+</TestCaseEntity>

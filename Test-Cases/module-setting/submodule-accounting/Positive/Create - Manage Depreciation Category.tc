@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Manage Depreciation Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9205fa37-d974-4e61-855a-dea10ba7712e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12887258-3de3-46f4-ab63-9f2d27a322c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depre Darren'</defaultValue>
+      <description></description>
+      <id>12887258-3de3-46f4-ab63-9f2d27a322c1</id>
+      <masked>false</masked>
+      <name>depreciationCategory</name>
+   </variable>
+</TestCaseEntity>

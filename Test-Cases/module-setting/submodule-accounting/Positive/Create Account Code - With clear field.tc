@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Account Code - With clear field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f79c8436-cd52-4db3-9f72-18933f2a80b8</testCaseGuid>
+</TestCaseEntity>

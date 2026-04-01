@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Depreciation Group (Bulk Action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29e9ffe8-b2c4-44b5-85ad-ca4337407239</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f23f2b61-9f45-4a21-9526-ad3f6122d235</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darren Stay'</defaultValue>
+      <description></description>
+      <id>f23f2b61-9f45-4a21-9526-ad3f6122d235</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+</TestCaseEntity>

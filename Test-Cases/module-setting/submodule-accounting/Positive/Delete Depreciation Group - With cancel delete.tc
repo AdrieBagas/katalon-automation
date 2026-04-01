@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Depreciation Group - With cancel delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9484bfd0-82a8-4c56-801b-5bfdbcab514d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be0f3a2c-0aa4-48eb-bfe2-59b0b1016fca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darrens'</defaultValue>
+      <description></description>
+      <id>be0f3a2c-0aa4-48eb-bfe2-59b0b1016fca</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+</TestCaseEntity>

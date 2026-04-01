@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Depreciation Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a584d6f4-db1d-4f11-9cbc-8d68db937275</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6e43806-ab44-4f12-b8a6-ef35cb0de6d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depre Darrens'</defaultValue>
+      <description></description>
+      <id>f6e43806-ab44-4f12-b8a6-ef35cb0de6d1</id>
+      <masked>false</masked>
+      <name>depreciatioCategory</name>
+   </variable>
+</TestCaseEntity>

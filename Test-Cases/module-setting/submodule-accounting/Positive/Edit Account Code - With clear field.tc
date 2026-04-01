@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account Code - With clear field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1b58808-7a1d-4f17-82e3-dd2813ee68ba</testCaseGuid>
+</TestCaseEntity>

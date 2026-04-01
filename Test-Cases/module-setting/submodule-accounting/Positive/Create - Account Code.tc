@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Account Code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1a68fe2-09cc-4f00-8e67-47bbfb5c6943</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>434f89b0-3aef-46f8-a82f-df693d404d42</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6794d1f-a51a-4be3-9f29-f9337856d9e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Code Darren'</defaultValue>
+      <description></description>
+      <id>434f89b0-3aef-46f8-a82f-df693d404d42</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Name Darren'</defaultValue>
+      <description></description>
+      <id>b6794d1f-a51a-4be3-9f29-f9337856d9e6</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Manage Depreciation Category - Inactivate Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>742d1079-a663-4e1e-b41c-18f6b15fa487</testCaseGuid>
+</TestCaseEntity>

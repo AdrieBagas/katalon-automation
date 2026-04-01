@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Depreciation Group - With cancel edit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e366baf-ff88-4a59-afc4-9b88bab7f917</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>070a7629-0c10-435e-ab61-9d588ab28526</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darrens'</defaultValue>
+      <description></description>
+      <id>070a7629-0c10-435e-ab61-9d588ab28526</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+</TestCaseEntity>

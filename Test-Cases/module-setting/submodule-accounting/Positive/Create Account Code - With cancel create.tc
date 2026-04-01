@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Account Code - With cancel create</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ebeb5c3a-4557-4f12-b7c1-60c232c1805c</testCaseGuid>
+</TestCaseEntity>

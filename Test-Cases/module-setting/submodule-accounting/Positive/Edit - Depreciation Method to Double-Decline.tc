@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Depreciation Method to Double-Decline</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b12843f1-f0b4-4eca-8463-554aa7037e6f</testCaseGuid>
+</TestCaseEntity>

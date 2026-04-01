@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Depreciation Group - With stay in form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e591e8c-0f4c-4ee1-b02d-bbd4b13ed90a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4396226-eb6c-4f30-ac31-603797983085</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2aa95f53-9168-4ac1-825d-a1ba5a30a7f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5deea648-08ec-43d2-aab5-ce86a2b15b6f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darren Stay'</defaultValue>
+      <description></description>
+      <id>c4396226-eb6c-4f30-ac31-603797983085</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>2aa95f53-9168-4ac1-825d-a1ba5a30a7f2</id>
+      <masked>false</masked>
+      <name>usefulLife</name>
+   </variable>
+   <variable>
+      <defaultValue>'3489'</defaultValue>
+      <description></description>
+      <id>5deea648-08ec-43d2-aab5-ce86a2b15b6f</id>
+      <masked>false</masked>
+      <name>salvageValue</name>
+   </variable>
+</TestCaseEntity>

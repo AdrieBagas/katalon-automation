@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Depreciation group - With clear field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd96f6e5-221e-42f9-acfc-6638fcf839f0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff79452c-fc30-4e1f-bfae-6821c4165eb4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darrens'</defaultValue>
+      <description></description>
+      <id>ff79452c-fc30-4e1f-bfae-6821c4165eb4</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Account Code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a37c226-4392-4064-ab0a-a081d2afdf64</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca3e0cd4-e4ee-4a00-b46e-e900f97c6dfe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Name Darrens'</defaultValue>
+      <description></description>
+      <id>ca3e0cd4-e4ee-4a00-b46e-e900f97c6dfe</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Account Code - With stay in form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75433111-2473-44cb-b394-af2bacde56ba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0452110d-612a-48c2-8ae4-4b0b1b033b59</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e294d40-dbfe-433d-9ad1-b7958e59e232</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Name Darren Stay'</defaultValue>
+      <description></description>
+      <id>0452110d-612a-48c2-8ae4-4b0b1b033b59</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code Darren Stay'</defaultValue>
+      <description></description>
+      <id>3e294d40-dbfe-433d-9ad1-b7958e59e232</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+</TestCaseEntity>

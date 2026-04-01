@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Depreciation Method - Cancel Changes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>71e6e28a-5cf9-4fe6-b331-92149f84b46f</testCaseGuid>
+</TestCaseEntity>

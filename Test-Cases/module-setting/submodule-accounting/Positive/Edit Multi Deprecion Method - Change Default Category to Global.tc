@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Multi Deprecion Method - Change Default Category to Global</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5c22cdac-687f-4af7-91db-b68f38ae2d20</testCaseGuid>
+</TestCaseEntity>

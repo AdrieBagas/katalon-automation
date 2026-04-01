@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Depreciation Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e8d19087-159d-4a95-9093-ae538ed6b5b6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ba662b2-c4bf-4cf1-a408-5510b7fe9724</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ab0f1dc-3f22-4f46-a6e6-b77f43da032c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4f2b72f-6dd3-4e9a-acff-d7dc33958290</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darren'</defaultValue>
+      <description></description>
+      <id>7ba662b2-c4bf-4cf1-a408-5510b7fe9724</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>7ab0f1dc-3f22-4f46-a6e6-b77f43da032c</id>
+      <masked>false</masked>
+      <name>usefulLife</name>
+   </variable>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description></description>
+      <id>c4f2b72f-6dd3-4e9a-acff-d7dc33958290</id>
+      <masked>false</masked>
+      <name>salvageValue</name>
+   </variable>
+</TestCaseEntity>

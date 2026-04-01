@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Account Code (Bulk Action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de9309e5-9b40-41a6-915a-e148f6137b87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a6885b2-f099-40f7-8659-f3750197bcdf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Name Darren Stay'</defaultValue>
+      <description></description>
+      <id>4a6885b2-f099-40f7-8659-f3750197bcdf</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>
