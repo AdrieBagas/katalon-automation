@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Group - Delete Group and Subgroup (With Assets)</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>40e62e25-2ee1-4651-9f3c-c8773cc7c13a</testSuiteGuid>
+   <testCaseLink>
+      <guid>05956f26-6f1d-47a0-9172-320a17e7787f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Module - Settings/Submodule - Groups/Open Settings - Group</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf98c97d-ba1d-4f92-90a2-b057c159aeae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Module - Settings/Submodule - Groups/Negative/Delete Subgroup - With Subgroup already have asset</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf0b74d4-1659-4ffe-a6b3-c249be59ebf1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>feac7caa-aaf6-4596-ab7d-1c36818a5c9a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0229fe6-a895-4435-ad5b-3392240e6ef7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Module - Settings/Submodule - Groups/Negative/Delete Group - With Group already have asset include subgroup</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5aeb9fa5-e11f-4833-84d4-f3d907239858</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ed33e76-050c-473e-897b-065277da531e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Module - Settings/Submodule - Groups/Negative/Delete Group - With Group already have asset Exclude subgroup</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fe4d5401-3431-4626-9341-f732176b047b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9819323d-4b74-4ec5-b679-df65ad044b25</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Module - Settings/Submodule - Groups/Negative/Delete Group - With Group already have asset</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3c670fa7-1be8-4c79-8f58-a122c03c5a5e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
