@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit User - From Detail user non login user With Division empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e21f47c7-bf60-4ad5-9bb3-54080d4ccf12</testCaseGuid>
+</TestCaseEntity>
