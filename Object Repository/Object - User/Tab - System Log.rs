@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tab - System Log</name>
+   <tag></tag>
+   <elementGuidId>1721934c-0a91-4926-817d-b1a45155b7c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[.//a[@aria-label='System Log']]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@aria-label = 'Non Login User' and (text() = 'Non Login User' or . = 'Non Login User')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Non Login User&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2f9dffd1-067d-4e97-a748-1e4862545a85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>98152e98-db94-49fb-a090-2a60c0bcba12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Non Login User</value>
+      <webElementGuid>e48a94a1-184f-4866-a566-6e02ccd624e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e5f5b03b-724b-4164-afe9-cbead87583b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>654bed2f-34fe-49c4-bd88-d1ec6b60e289</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative font-medium text-xs flex items-center pb-1.5 px-2 !h-6 rounded-t-md border-b-2 bg-transparent dark:bg-transparent text-grayscale-600 dark:text-grayscale-600 border-grayscale-400 dark:border-grayscale-600 focus-visible:outline-none focus-visible:outline-offset-0 focus-visible:bg-primary-50 dark:focus-visible:bg-primary-50 focus-visible:border-primary-200 dark:focus-visible:border-primary-200 focus-visible:text-primary-400 dark:focus-visible:text-primary-400 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap</value>
+      <webElementGuid>663e2774-9b2c-4234-84a7-fabdb977ac2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>2cbe1e32-19b4-40ce-94c3-326c33c7ba1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Non Login User</value>
+      <webElementGuid>2258a1e9-194a-44ee-bdd1-c29a7867bec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;single-spa-application:@tagsamurai/ts-mfe-settings-user&quot;)/div[@class=&quot;single-spa-container&quot;]/div[@class=&quot;rounded-lg bg-surface-0 dark:!bg-grayscale-900 text-general-800 dark:text-general-800&quot;]/div[@class=&quot;flex flex-col gap-3 p-6&quot;]/div[@class=&quot;flex flex-col gap-3 text-general-800 dark:text-general-100&quot;]/div[@class=&quot;flex flex-col gap-[10px]&quot;]/div[@class=&quot;flex flex-col mt-2 gap-2&quot;]/div[@class=&quot;overflow-x-auto&quot;]/ul[@class=&quot;flex flex-1 list-none p-0 m-0 text-general-100 dark:text-general-400&quot;]/li[@class=&quot;mr-0&quot;]/a[@class=&quot;relative font-medium text-xs flex items-center pb-1.5 px-2 !h-6 rounded-t-md border-b-2 bg-transparent dark:bg-transparent text-grayscale-600 dark:text-grayscale-600 border-grayscale-400 dark:border-grayscale-600 focus-visible:outline-none focus-visible:outline-offset-0 focus-visible:bg-primary-50 dark:focus-visible:bg-primary-50 focus-visible:border-primary-200 dark:focus-visible:border-primary-200 focus-visible:text-primary-400 dark:focus-visible:text-primary-400 transition-all duration-200 cursor-pointer select-none text-decoration-none overflow-hidden user-select-none !no-underline whitespace-nowrap&quot;]</value>
+      <webElementGuid>67437e65-4e7a-4d86-8481-c32608f5c199</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='single-spa-application:@tagsamurai/ts-mfe-settings-user']/div/div[2]/div/div/div/div[3]/div/ul/li[2]/a</value>
+      <webElementGuid>93564d02-3fd8-49ec-bb2d-c724050755f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[2]/following::a[1]</value>
+      <webElementGuid>481c6293-e2d0-4365-8a4f-f381e416e0ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Paired'])[1]/following::a[2]</value>
+      <webElementGuid>2c76a4e2-b24c-42ce-acf6-7b4cfc25e6b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Admin Log'])[1]/preceding::a[1]</value>
+      <webElementGuid>910cb0f2-e3d5-420a-a222-da1c87383b47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>497d91dc-2d0e-4b6d-bc96-901c3cbc2e57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Non Login User' or . = 'Non Login User')]</value>
+      <webElementGuid>6ada7a28-d322-4fbf-94ce-d677a449f019</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

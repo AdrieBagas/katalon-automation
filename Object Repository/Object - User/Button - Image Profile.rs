@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Image Profile</name>
+   <tag></tag>
+   <elementGuidId>66481815-d608-4d57-b33d-16cc265d33e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.w-6.h-6.icon.ic-image-add.text-primary.cursor-pointer.w-6.h-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/div/div/div/div/div/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>form >> internal:has-text=&quot;First Name *Last Name *Position Select positionDivision *Select divisionEmployee&quot;i >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d06f0648-050d-4388-8597-e1d26d53270e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-6 h-6 icon ic-image-add text-primary cursor-pointer w-6 h-6</value>
+      <webElementGuid>0f09d391-f4a4-4d27-84fc-7b8b6d9701c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-section</name>
+      <type>Main</type>
+      <value>input-image-trigger</value>
+      <webElementGuid>8e2ebfd3-047c-4b66-9416-f69f872427c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;transition duration-300 has-[.mask-active]:bg-transparent dark:has-[.mask-active]:bg-transparent bg-dialog-mask dark:dialog-mask has-[.mask-active]:backdrop-blur-none backdrop-blur-sm&quot;]/div[@class=&quot;[&amp;_div[data-ts-section=dialog-form-content]]:overflow-x-hidden !w-[572px] rounded-[0.4375em] shadow-[box-shadow: -4px 4px 20px 0px #0000001A] flex flex-col p-6 gap-3 bg-white dark:bg-grayscale-900 max-h-[90vh] sm:max-w-[90vw] m-0 transform scale-100 max-w-[90vw] !w-[500px]&quot;]/div[@class=&quot;!text-header-weak text-xs font-medium tracking-[0.02em] pr-1.5 -mr-1.5 pl-1.5 -ml-1.5 pt-1.5 -mt-1.5 !pb-1.5 -mb-1.5 flex flex-col gap-3 text-surface-600 dark:text-surface-0/70 overflow-y-auto&quot;]/form[@class=&quot;ts-form&quot;]/div[@class=&quot;ts-form-fields-outer-wrapper&quot;]/div[@class=&quot;grid gap-y-3 gap-x-6&quot;]/div[@class=&quot;flex flex-col gap-1&quot;]/div[@class=&quot;[&amp;>div]:justify-self-center&quot;]/div[@class=&quot;flex flex-col items-start justify-start relative gap-1 w-full shrink-0 overflow-hidden !w-max&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex gap-1 items-start&quot;]/button[@class=&quot;w-[125px] h-[125px] flex items-center justify-center ring-inset cursor-pointer ring-[0.5px] rounded-full ring-general-200 dark:ring-general-200 focus-visible:ring-primary-500 focus-visible:dark:ring-primary-500 bg-white dark:bg-grayscale-900&quot;]/i[@class=&quot;w-6 h-6 icon ic-image-add text-primary cursor-pointer w-6 h-6&quot;]</value>
+      <webElementGuid>3cc9667b-8995-480a-bbd6-9a3a98a356e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/div/div/div/button/i</value>
+      <webElementGuid>963e06d2-471b-4572-9e20-db9f1d75b71f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
