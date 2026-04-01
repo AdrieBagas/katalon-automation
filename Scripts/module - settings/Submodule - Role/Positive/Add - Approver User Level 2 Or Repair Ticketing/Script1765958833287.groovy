@@ -1,0 +1,42 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.click(findTestObject('Object - Settings - Role/Tab - Repair Ticketing'))
+
+'Always include the \'groupName\' variable to target the XPath.'
+WebUI.click(findTestObject('Object - Settings - Role/Button - Select Group', [('groupName') : 'Test Role']))
+
+WebUI.click(findTestObject('Object - Settings - Role/Button - Add Level Approver'))
+
+WebUI.click(findTestObject('Object - Settings - Role/Button - Add User Approver Level 2'))
+
+WebUI.verifyElementVisible(findTestObject('Object - Settings - Role/Dropdown - Add User Addon'))
+
+'Always include the \'userName\' variable to target the XPath.'
+WebUI.click(findTestObject('Object - Settings - Role/Checkbox - Add User Role Addon', [('userName') : 'Qa 02']))
+
+WebUI.check(findTestObject('Object - Settings - Role/Radio Button - Level 2 Or'))
+
+WebUI.click(findTestObject('Object - Settings - Role/Button - Changelog Addon Role'))
+
+'Always include the \'action\' and \'userName\' variable to target the XPath.'
+WebUI.verifyElementVisible(findTestObject('Object - Settings - Role/Verify Data Table - Changelog', [('action') : 'Add', ('userName') : 'user 3comp5']))
+
+WebUI.click(findTestObject('Object - Settings - Role/Button - Close Dialog'))
+
