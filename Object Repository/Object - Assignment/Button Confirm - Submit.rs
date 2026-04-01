@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Confirm - Submit</name>
+   <tag></tag>
+   <elementGuidId>9c43f38e-d1e3-4a3c-8a45-8611b132a380</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@aria-label = 'Submit' and @data-ts-section = 'confirm-button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6e436256-0c40-4c62-862a-989ffd83f52c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Submit</value>
+      <webElementGuid>8a3279e5-4052-4e40-b178-967bfb15bd5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ts-section</name>
+      <type>Main</type>
+      <value>confirm-button</value>
+      <webElementGuid>c647fdfd-eac7-4291-8f9f-f91ec42314a4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

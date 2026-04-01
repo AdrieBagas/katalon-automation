@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Toast - Error</name>
+   <tag></tag>
+   <elementGuidId>4fd08fed-30ca-4f48-8d2d-ebd10eb19e93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(contains(text(), 'Success, group has been deleted.') or contains(., 'Success, group has been deleted.'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(14) > div > .border-0 > div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>241c79d5-525a-4f8a-b04b-16864ad8db31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center py-3 px-3 text-inherit gap-2</value>
+      <webElementGuid>26c254a9-6db4-4e19-a0a1-cd54c31a1825</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>87432b77-97be-4528-9f46-d6cb59b4aeea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Success</value>
+      <webElementGuid>92dea1dd-da6f-4f64-b093-358a4c921ad6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;p-toast p-component p-toast-bottom-right p-ripple-disabled w-full max-w-[496px]&quot;]/div[1]/div[@class=&quot;border-0 border-l-4 mt-6 rounded-[7px] w-full shadow-lg border-success-600 text-success-600 bg-success-50&quot;]/div[@class=&quot;flex items-center py-3 px-3 text-inherit gap-2&quot;]</value>
+      <webElementGuid>c0f576aa-c9ef-4260-b916-284ec8cd29a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Success, group has been deleted.'])[2]/following::div[7]</value>
+      <webElementGuid>14c4dc65-7a5a-40f2-a903-4f86338834b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Success, group has been deleted.'])[1]/following::div[14]</value>
+      <webElementGuid>2ea79f75-18c2-4095-8715-f8acf047baa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div</value>
+      <webElementGuid>51633cce-7bd4-4046-bfdd-9ca29a237ed2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Success, group has been deleted.' or . = 'Success, group has been deleted.')]</value>
+      <webElementGuid>d7425634-ba4d-4271-a3fc-8415f7168395</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
