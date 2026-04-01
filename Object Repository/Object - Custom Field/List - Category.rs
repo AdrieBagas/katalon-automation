@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>List - Category</name>
+   <tag></tag>
+   <elementGuidId>7520976d-4bfb-40e0-9fd1-30925a562e11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@role='dialog']//div[@data-p-selectable='true' and .//span[text()='Default Category']]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='1756805717437']/div/ul/li/ul/li/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Not Selected Default Category&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>90d99eef-9141-45a3-bf5d-df2ba7d20082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center rounded-md p-1 text-surface-700 dark:text-surface-700 transition-shadow duration-200 cursor-pointer</value>
+      <webElementGuid>b95a67fd-eb63-4542-b475-89f352f82e10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>25fa285b-13b4-4246-929a-b58310c0302a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-p-selectable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f0d34264-6fc3-47a9-9694-01f232401cf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Not Selected Default Category</value>
+      <webElementGuid>8361f633-066f-42dd-9078-ea3aca5d85b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@role='dialog']//div[@data-p-selectable='true' and .//span[text()='Default Category']]</value>
+      <webElementGuid>9dc89c34-b4cb-4d12-8850-3d798790dff5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1756805717437']/div/ul/li/ul/li/div</value>
+      <webElementGuid>91223afb-ec00-418b-a298-b3a158bf52fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[2]/following::div[1]</value>
+      <webElementGuid>16aaa0b3-df7d-4b60-aa5e-5e55eb25a210</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Selected'])[1]/following::div[2]</value>
+      <webElementGuid>fd5455b5-d2d3-4b84-8c18-704b80855e06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/ul/li/ul/li/div</value>
+      <webElementGuid>d33b85aa-7200-4042-85fd-9a1b90a67f04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Not Selected Default Category' or . = 'Not Selected Default Category')]</value>
+      <webElementGuid>0c1f146b-b4a3-470d-8300-0beb74230f18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

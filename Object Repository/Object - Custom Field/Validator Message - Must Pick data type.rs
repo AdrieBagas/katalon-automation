@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Validator Message - Must Pick data type</name>
+   <tag></tag>
+   <elementGuidId>5b3ec0cd-80dc-4890-98b0-b5129ff6dde5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#undefinederror</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//small[@id='undefinederror']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//small[(text() = 'You must pick a data type' or . = 'You must pick a data type')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;You must pick&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>d47200ec-309a-428a-b9c0-25aaad055d5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>!mt-0 text-danger-500 dark:text-danger-500 text-xs font-light</value>
+      <webElementGuid>121961b9-b19b-44fc-b9fc-e9f7d22e9845</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pc-section</name>
+      <type>Main</type>
+      <value>validator-message</value>
+      <webElementGuid>ac93b7f7-ffb1-4539-9869-038d2fe84e60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>undefinederror</value>
+      <webElementGuid>13225fe8-1411-4d0d-b878-f1bf1adbdf2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You must pick a data type</value>
+      <webElementGuid>24f80c59-8182-44df-9696-868282ae2c65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;undefinederror&quot;)</value>
+      <webElementGuid>0f58fb4a-989b-40b9-9856-6717fffaeadc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//small[@id='undefinederror']</value>
+      <webElementGuid>7818a8e2-ad3d-46e5-a304-76cd54c2e437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::small[1]</value>
+      <webElementGuid>cc721db8-6e50-4248-ab7e-46e48830b915</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Required?'])[1]/preceding::small[1]</value>
+      <webElementGuid>9295528f-72f8-4b5a-82c4-c544d193461b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::small[1]</value>
+      <webElementGuid>30218e84-696c-4f5d-a5fe-bab8d5c1f4bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You must pick']/parent::*</value>
+      <webElementGuid>f8069230-ab28-4ee7-b148-9b9a6fe2a4cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div[2]/div[2]/small</value>
+      <webElementGuid>349108b3-5cf1-4974-8438-8d7b4dc8d8a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//small[@id = 'undefinederror' and (text() = 'You must pick ' or . = 'You must pick ')]</value>
+      <webElementGuid>c45f6c2e-680d-4318-abe0-e2db344b9357</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
