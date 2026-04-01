@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asset Policy - With Bulk action add asset name and no asset selected</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04b4419c-76dd-4a33-a24a-225d42486ee6</testCaseGuid>
+</TestCaseEntity>

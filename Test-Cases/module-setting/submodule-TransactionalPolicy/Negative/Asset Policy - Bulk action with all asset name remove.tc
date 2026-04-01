@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asset Policy - Bulk action with all asset name remove</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db38a5ba-805f-403c-8c58-c7977edd3538</testCaseGuid>
+</TestCaseEntity>
