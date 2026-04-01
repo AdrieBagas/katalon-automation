@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Measurement With bulk action</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33dd8eda-4dde-40a9-b68e-ea59e4da1066</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1bec600-7fca-49a8-a548-2696aec6d761</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Unit Stay'</defaultValue>
+      <description></description>
+      <id>a1bec600-7fca-49a8-a548-2696aec6d761</id>
+      <masked>false</masked>
+      <name>measurementName</name>
+   </variable>
+</TestCaseEntity>

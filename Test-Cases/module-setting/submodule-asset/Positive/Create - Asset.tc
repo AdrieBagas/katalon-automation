@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75d22d6c-4a0c-45ab-bcfe-04782f7b971a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6d5920f-6390-458a-af18-b6ae8d5e47b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9e668d1-aec8-49c9-bb4c-d73ebcdb9a2c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3598570-8e0c-49b3-aa20-06279ea4f631</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eed077a6-6b6e-46db-93ce-c73d069f8748</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>602b7f97-f010-465a-84e6-b42a4d1f34fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e42cfb28-10aa-4dd2-982e-698f8d6d688f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>421c530b-58e3-44f9-8ed7-cfdf0e48d51d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darren'</defaultValue>
+      <description></description>
+      <id>a6d5920f-6390-458a-af18-b6ae8d5e47b8</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ANDA'</defaultValue>
+      <description></description>
+      <id>b9e668d1-aec8-49c9-bb4c-d73ebcdb9a2c</id>
+      <masked>false</masked>
+      <name>assetCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Units'</defaultValue>
+      <description></description>
+      <id>a3598570-8e0c-49b3-aa20-06279ea4f631</id>
+      <masked>false</masked>
+      <name>measurement</name>
+   </variable>
+   <variable>
+      <defaultValue>'Depreciation Group 1'</defaultValue>
+      <description></description>
+      <id>eed077a6-6b6e-46db-93ce-c73d069f8748</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code 1'</defaultValue>
+      <description></description>
+      <id>602b7f97-f010-465a-84e6-b42a4d1f34fb</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Non TAG'</defaultValue>
+      <description></description>
+      <id>e42cfb28-10aa-4dd2-982e-698f8d6d688f</id>
+      <masked>false</masked>
+      <name>tagType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>421c530b-58e3-44f9-8ed7-cfdf0e48d51d</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

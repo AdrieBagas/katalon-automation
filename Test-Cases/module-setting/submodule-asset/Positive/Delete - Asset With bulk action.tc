@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Asset With bulk action</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00427d52-92f7-49e5-bd17-0482170071a8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5662127-8857-4731-bc8c-9ddd05cededd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darren'</defaultValue>
+      <description></description>
+      <id>d5662127-8857-4731-bc8c-9ddd05cededd</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+</TestCaseEntity>

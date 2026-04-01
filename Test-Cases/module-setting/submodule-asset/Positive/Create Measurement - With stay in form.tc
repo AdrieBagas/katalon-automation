@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Measurement - With stay in form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2c1d760-64e7-4e45-8675-bbc68c1a3919</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11120b09-d895-449d-9d30-8bf2a86e4a50</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Unit Stay'</defaultValue>
+      <description></description>
+      <id>11120b09-d895-449d-9d30-8bf2a86e4a50</id>
+      <masked>false</masked>
+      <name>measurementName</name>
+   </variable>
+</TestCaseEntity>

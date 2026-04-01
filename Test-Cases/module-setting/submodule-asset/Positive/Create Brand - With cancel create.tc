@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Brand - With cancel create</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b36a471a-3f75-4f3f-8431-75196c265fba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3790219-8f41-4ba9-9820-6671b7359cf3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b433263-63d5-4553-b035-6d1dcfbcd7d1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6735f97d-ef93-46b1-b35f-6486094a2d98</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 1'</defaultValue>
+      <description></description>
+      <id>a3790219-8f41-4ba9-9820-6671b7359cf3</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>3b433263-63d5-4553-b035-6d1dcfbcd7d1</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Model 1'</defaultValue>
+      <description></description>
+      <id>6735f97d-ef93-46b1-b35f-6486094a2d98</id>
+      <masked>false</masked>
+      <name>modelName</name>
+   </variable>
+</TestCaseEntity>

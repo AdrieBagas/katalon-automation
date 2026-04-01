@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Brand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15f679aa-8bed-47bd-8988-8dcbf1b293eb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>224997dc-fd33-43c0-b519-6ac29e25015d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf4fa3db-8775-476f-91d8-f78a686acca1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59c068d0-9094-4162-9958-0d65efbdfb8f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18ed5b7a-f76f-4a1a-8e6e-44f63fd3f2e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31bf9896-9195-4ebe-8aa2-7dd175ce0d46</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d267268-9926-4d6a-a68a-a9b078bfb5e9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 1'</defaultValue>
+      <description></description>
+      <id>224997dc-fd33-43c0-b519-6ac29e25015d</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>cf4fa3db-8775-476f-91d8-f78a686acca1</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Model 1'</defaultValue>
+      <description></description>
+      <id>59c068d0-9094-4162-9958-0d65efbdfb8f</id>
+      <masked>false</masked>
+      <name>oldModelName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Model 11'</defaultValue>
+      <description></description>
+      <id>18ed5b7a-f76f-4a1a-8e6e-44f63fd3f2e0</id>
+      <masked>false</masked>
+      <name>newModelName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ABCD'</defaultValue>
+      <description></description>
+      <id>31bf9896-9195-4ebe-8aa2-7dd175ce0d46</id>
+      <masked>false</masked>
+      <name>newCategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Brand 11'</defaultValue>
+      <description></description>
+      <id>6d267268-9926-4d6a-a68a-a9b078bfb5e9</id>
+      <masked>false</masked>
+      <name>newBrandName</name>
+   </variable>
+</TestCaseEntity>

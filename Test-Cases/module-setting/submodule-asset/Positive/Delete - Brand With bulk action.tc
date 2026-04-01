@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Brand With bulk action</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53fa8ad6-5787-4e81-a9aa-1382da166274</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c80c8447-75ea-439e-90d1-5a3860a994aa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand Stay'</defaultValue>
+      <description></description>
+      <id>c80c8447-75ea-439e-90d1-5a3860a994aa</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+</TestCaseEntity>

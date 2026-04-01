@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Brand - With stay in form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7c2733d-698b-45f9-a881-5a1add4cdaf9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a370ebe1-cf1b-44fa-87e6-dca3ef309381</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>872baf91-8ac8-4cf6-b0a6-e06623814491</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91e517c0-cbd5-42e8-933b-3064b0200489</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand Stay'</defaultValue>
+      <description></description>
+      <id>a370ebe1-cf1b-44fa-87e6-dca3ef309381</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>872baf91-8ac8-4cf6-b0a6-e06623814491</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Model Stay'</defaultValue>
+      <description></description>
+      <id>91e517c0-cbd5-42e8-933b-3064b0200489</id>
+      <masked>false</masked>
+      <name>modelName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset - With TAG RFID and QR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4bf6e5eb-f9f7-4c30-9227-f611f15d7838</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edfae722-6e54-4e32-abcb-145b7bcf666a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a78e4f5d-c41e-4d0d-a8e1-ba5039277fe5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f575c6a-f53a-4898-a5aa-cdf9d5b25502</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ba64a93-3412-4033-ba5c-83b7bcea0d69</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d4471a1-aec6-4997-86c8-d5d921b8d907</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c53c459-077b-4768-af1a-6bc76c49d131</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6ac17c0-9c36-4664-821c-096452cc50a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darren RFID QR'</defaultValue>
+      <description></description>
+      <id>edfae722-6e54-4e32-abcb-145b7bcf666a</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ANRQ'</defaultValue>
+      <description></description>
+      <id>a78e4f5d-c41e-4d0d-a8e1-ba5039277fe5</id>
+      <masked>false</masked>
+      <name>assetCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Units'</defaultValue>
+      <description></description>
+      <id>8f575c6a-f53a-4898-a5aa-cdf9d5b25502</id>
+      <masked>false</masked>
+      <name>measurement</name>
+   </variable>
+   <variable>
+      <defaultValue>'Depreciation Group 1'</defaultValue>
+      <description></description>
+      <id>7ba64a93-3412-4033-ba5c-83b7bcea0d69</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code 1'</defaultValue>
+      <description></description>
+      <id>5d4471a1-aec6-4997-86c8-d5d921b8d907</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'RFID &amp; QR'</defaultValue>
+      <description></description>
+      <id>0c53c459-077b-4768-af1a-6bc76c49d131</id>
+      <masked>false</masked>
+      <name>tagType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>b6ac17c0-9c36-4664-821c-096452cc50a2</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update Asset - With depreciation group (Bulk Action)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2cce7004-5e74-4af6-840e-7e7f759743fb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d68f7bc2-364c-4a2b-b510-91463bf05f03</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e18e335-8a74-4bc6-9639-a639c0eed9d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8140655e-1eb5-4b35-b284-d2d0ce760b83</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0230078a-d996-4a74-a5a4-9e90d8da71e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21c8901b-30b8-49db-9ad2-0214911dd7c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73f43b73-0506-4bf9-8974-3a1ac1afde00</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darrens'</defaultValue>
+      <description></description>
+      <id>d68f7bc2-364c-4a2b-b510-91463bf05f03</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Depreciation Group 2'</defaultValue>
+      <description></description>
+      <id>6e18e335-8a74-4bc6-9639-a639c0eed9d8</id>
+      <masked>false</masked>
+      <name>newDepreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code 2'</defaultValue>
+      <description></description>
+      <id>8140655e-1eb5-4b35-b284-d2d0ce760b83</id>
+      <masked>false</masked>
+      <name>newAccountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Depreciation Group 1'</defaultValue>
+      <description></description>
+      <id>0230078a-d996-4a74-a5a4-9e90d8da71e5</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Name 2'</defaultValue>
+      <description></description>
+      <id>21c8901b-30b8-49db-9ad2-0214911dd7c7</id>
+      <masked>false</masked>
+      <name>newAccountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Name 1'</defaultValue>
+      <description></description>
+      <id>73f43b73-0506-4bf9-8974-3a1ac1afde00</id>
+      <masked>false</masked>
+      <name>oldAccountName</name>
+   </variable>
+</TestCaseEntity>

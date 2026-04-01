@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Brand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c125f753-7cc4-44d8-a847-9bb34bec87de</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3f56a5d-03ec-45d3-8f95-85b509c97644</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9e10617-1dee-42a9-8a3b-110d35542404</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29147a16-4111-4639-aab1-13ac8c6870df</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 1'</defaultValue>
+      <description></description>
+      <id>a3f56a5d-03ec-45d3-8f95-85b509c97644</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>f9e10617-1dee-42a9-8a3b-110d35542404</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Model 1'</defaultValue>
+      <description></description>
+      <id>29147a16-4111-4639-aab1-13ac8c6870df</id>
+      <masked>false</masked>
+      <name>modelName</name>
+   </variable>
+</TestCaseEntity>

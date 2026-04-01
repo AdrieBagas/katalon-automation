@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete - Measurement With cancel delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6848d4c1-1b67-44f9-a9c1-1685e9f4bf61</testCaseGuid>
+</TestCaseEntity>
