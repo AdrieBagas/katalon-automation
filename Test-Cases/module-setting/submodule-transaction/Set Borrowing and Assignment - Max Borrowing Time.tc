@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Borrowing and Assignment - Max Borrowing Time</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ec7d942-8ec3-443b-a92e-6652f32321b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b851f9dd-f749-4b8d-88cd-c14c085a4ccc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f297e8ec-3dc1-4820-967b-c784a84f325b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7'</defaultValue>
+      <description></description>
+      <id>b851f9dd-f749-4b8d-88cd-c14c085a4ccc</id>
+      <masked>false</masked>
+      <name>editedTime</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>f297e8ec-3dc1-4820-967b-c784a84f325b</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

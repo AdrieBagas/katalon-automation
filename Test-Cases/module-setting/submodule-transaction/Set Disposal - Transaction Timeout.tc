@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Disposal - Transaction Timeout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>176ba48f-bfcb-48a0-ac35-ca07fa0915f5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c47b22ba-149f-4f75-9305-8764edd42fb4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6231bcd-f3a0-4439-bb2d-424cffff06a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7'</defaultValue>
+      <description></description>
+      <id>c47b22ba-149f-4f75-9305-8764edd42fb4</id>
+      <masked>false</masked>
+      <name>editedTime</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>a6231bcd-f3a0-4439-bb2d-424cffff06a1</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

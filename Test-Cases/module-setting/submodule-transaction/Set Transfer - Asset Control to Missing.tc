@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Transfer - Asset Control to Missing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da0e0371-f47a-4a5a-a7ce-aa9d3578854f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8faeeacf-c5f6-4d45-a90a-915664cf3fe8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76c876f5-fc34-4f83-a5d4-d41c9af2865f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7\r\n'</defaultValue>
+      <description></description>
+      <id>8faeeacf-c5f6-4d45-a90a-915664cf3fe8</id>
+      <masked>false</masked>
+      <name>editedTime</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>76c876f5-fc34-4f83-a5d4-d41c9af2865f</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

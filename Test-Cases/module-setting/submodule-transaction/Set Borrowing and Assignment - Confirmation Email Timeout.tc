@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Borrowing and Assignment - Confirmation Email Timeout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb0ce937-6ac8-418d-8db7-6b64c1d8b5be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d1bfe76-a52c-4c82-b98a-74d6e8129fda</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>6d1bfe76-a52c-4c82-b98a-74d6e8129fda</id>
+      <masked>false</masked>
+      <name>editedTime</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Borrowing and Assignment - Transaction Timeout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a04ec2f-61a8-4453-bf4b-a51de2a69c39</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9825541c-4e06-4755-ab18-3dac440f59c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d861db9d-827e-40c9-9fce-c2ffba81901a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7'</defaultValue>
+      <description></description>
+      <id>9825541c-4e06-4755-ab18-3dac440f59c2</id>
+      <masked>false</masked>
+      <name>editedTime</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>d861db9d-827e-40c9-9fce-c2ffba81901a</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Transfer - Transaction Timeout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02e50cf5-4b35-4d0d-89f0-3726b05fe132</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1588b915-64a3-4992-b0b3-c53513e7282a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4342f29-bb78-4a59-a15a-84958b37d411</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7'</defaultValue>
+      <description></description>
+      <id>1588b915-64a3-4992-b0b3-c53513e7282a</id>
+      <masked>false</masked>
+      <name>editedTime</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>a4342f29-bb78-4a59-a15a-84958b37d411</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>
