@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asset Policy - With Inactivated self service policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26939d3d-0057-4e36-8a98-39fae8a8d950</testCaseGuid>
+</TestCaseEntity>

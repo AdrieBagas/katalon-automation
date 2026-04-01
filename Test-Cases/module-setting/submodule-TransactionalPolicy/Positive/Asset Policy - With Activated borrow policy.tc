@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asset Policy - With Activated borrow policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b024ca4f-ab9a-40ab-bb62-7b49e014def1</testCaseGuid>
+</TestCaseEntity>

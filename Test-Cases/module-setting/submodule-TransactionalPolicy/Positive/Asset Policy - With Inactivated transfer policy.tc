@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asset Policy - With Inactivated transfer policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4835109a-1345-4361-96ad-fa3226430ba8</testCaseGuid>
+</TestCaseEntity>

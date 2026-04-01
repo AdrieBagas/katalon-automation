@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Asset Policy - With Activated assign policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98bbbf24-39f6-49af-9bf1-f68436083ecd</testCaseGuid>
+</TestCaseEntity>
