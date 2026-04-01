@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Radio Button - Disposal policy</name>
+   <tag></tag>
+   <elementGuidId>c37f4108-3b90-4984-b4e8-7c9ddcef5090</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table//div[@data-pc-name='inputswitch']/input[@role='switch']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;bulkaction-overlay-menu_0&quot;)/div[@class=&quot;w-full rounded-md text-inherit dark:text-inherit transition-shadow duration-200&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-1.5 hover:bg-surface-50 dark:hover:bg-grayscale-800 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]/i[@class=&quot;icon ic-close text-inherit cursor-pointer&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Inactivate Disposal Policy&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8aaa6b2e-6793-4e66-b44f-212ca8ba82e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon ic-close text-inherit cursor-pointer</value>
+      <webElementGuid>ed648a53-5cf5-4ae7-93ee-9fac7f38c49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bulkaction-overlay-menu_0&quot;)/div[@class=&quot;w-full rounded-md text-inherit dark:text-inherit transition-shadow duration-200&quot;]/a[@class=&quot;flex items-center justify-start gap-2 px-4 py-1.5 hover:bg-surface-50 dark:hover:bg-grayscale-800 text-xs no-underline overflow-hidden cursor-pointer select-none&quot;]/i[@class=&quot;icon ic-close text-inherit cursor-pointer&quot;]</value>
+      <webElementGuid>70d87f93-cd12-43f7-bc12-9ad34a7635bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='bulkaction-overlay-menu_0']/div/a/i</value>
+      <webElementGuid>dfd7f0dd-fd3d-478d-9fc0-2901e9118b4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>fb57891b-8232-4d78-a2a6-da758120f7eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
