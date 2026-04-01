@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Indicator Template" time="293.347" tests="9" failures="5" errors="0">
+   <testsuite name="Indicator Template" tests="9" failures="5" errors="0" time="293.347" skipped="0" timestamp="2026-02-03T03:02:51.382Z" hostname="LENOVO - LAPTOP-JCNL1CVB" id="Test Suites/Addon - Maintenance Routine/Indicator Template">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921"/>
+         <property name="logFiles" value="D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\console0.log, D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\execution0.log"/>
+         <property name="attachments" value="D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087815206.png, D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087845615.png, D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087875966.png, D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087906390.png, D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770088016511.png"/>
+         <property name="hostName" value="LENOVO - LAPTOP-JCNL1CVB"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.1.0"/>
+         <property name="browser" value="Chrome 144.0.7559.110"/>
+         <property name="userFullName" value="Aditya Daffa Syahputra"/>
+         <property name="hostAddress" value="192.168.88.131"/>
+         <property name="sessionId" value="fcec3e6982a2b66cc57e4009cd835c61"/>
+         <property name="projectName" value="katalon-automation"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Module - Auth/Positive/Login User" time="42.917" classname="Test Cases/Module - Auth/Positive/Login User" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Module - Auth/Positive/Login User FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testerTotal@mailnesia.com' of object 'Object Repository/login session object/Input - Email'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)&#xa;	at Login User.run(Login User:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Input - Email' located by 'By.xpath: //input[@placeholder = 'Enter your email']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[03-02-2026T10:02:52 - [TEST_CASE][FAILED] - Test Cases/Module - Auth/Positive/Login User: Test Cases/Module - Auth/Positive/Login User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testerTotal@mailnesia.com' of object 'Object Repository/login session object/Input - Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login User.run(Login User:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Input - Email' located by 'By.xpath: //input[@placeholder = 'Enter your email']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - openBrowser(Url): Browser is opened with url: 'staging-console.tagsamurai.com'
+
+03-02-2026T10:02:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-02-2026T10:02:52 - [MESSAGE][INFO] - Action delay is set to 800 milliseconds
+
+03-02-2026T10:03:04 - [MESSAGE][PASSED] - Browser is opened with url: 'staging-console.tagsamurai.com'
+
+03-02-2026T10:03:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-02-2026T10:03:04 - [MESSAGE][PASSED] - Current window maximized
+
+03-02-2026T10:03:04 - [TEST_STEP][FAILED] - setText(findTestObject("login session object/Input - Email"), Email): Unable to set text 'testerTotal@mailnesia.com' of object 'Object Repository/login session object/Input - Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testerTotal@mailnesia.com' of object 'Object Repository/login session object/Input - Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login User.run(Login User:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Input - Email' located by 'By.xpath: //input[@placeholder = 'Enter your email']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1756265950346.run(Script1756265950346.groovy:24)
+	... 15 more
+)
+
+03-02-2026T10:03:35 - [MESSAGE][FAILED] - Unable to set text 'testerTotal@mailnesia.com' of object 'Object Repository/login session object/Input - Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testerTotal@mailnesia.com' of object 'Object Repository/login session object/Input - Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login User.run(Login User:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Input - Email' located by 'By.xpath: //input[@placeholder = 'Enter your email']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1756265950346.run(Script1756265950346.groovy:24)
+	... 15 more
+)
+[[ATTACHMENT|D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087815206.png]]]]></system-out>
+         <system-err><![CDATA[03-02-2026T10:02:52 - [TEST_CASE][FAILED] - Test Cases/Module - Auth/Positive/Login User: Test Cases/Module - Auth/Positive/Login User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testerTotal@mailnesia.com' of object 'Object Repository/login session object/Input - Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login User.run(Login User:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Input - Email' located by 'By.xpath: //input[@placeholder = 'Enter your email']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Click - Fixed Asset Button" time="30.439" classname="Test Cases/Click - Fixed Asset Button" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Click - Fixed Asset Button FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/login session object/Button - Fixed Asset'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)&#xa;	at Click - Fixed Asset Button.run(Click - Fixed Asset Button:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Button - Fixed Asset' located by 'By.xpath: //a[@data-ts-name = 'module-fixed']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[03-02-2026T10:03:35 - [TEST_CASE][FAILED] - Test Cases/Click - Fixed Asset Button: Test Cases/Click - Fixed Asset Button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/login session object/Button - Fixed Asset'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Click - Fixed Asset Button.run(Click - Fixed Asset Button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Button - Fixed Asset' located by 'By.xpath: //a[@data-ts-name = 'module-fixed']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+03-02-2026T10:03:35 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:03:35 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:03:35 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:03:35 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:03:35 - [TEST_STEP][FAILED] - click(findTestObject("login session object/Button - Fixed Asset")): Unable to click on object 'Object Repository/login session object/Button - Fixed Asset' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/login session object/Button - Fixed Asset'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Click - Fixed Asset Button.run(Click - Fixed Asset Button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Button - Fixed Asset' located by 'By.xpath: //a[@data-ts-name = 'module-fixed']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1765794197720.run(Script1765794197720.groovy:20)
+	... 15 more
+)
+
+03-02-2026T10:04:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/login session object/Button - Fixed Asset' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/login session object/Button - Fixed Asset'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Click - Fixed Asset Button.run(Click - Fixed Asset Button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Button - Fixed Asset' located by 'By.xpath: //a[@data-ts-name = 'module-fixed']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1765794197720.run(Script1765794197720.groovy:20)
+	... 15 more
+)
+[[ATTACHMENT|D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087845615.png]]]]></system-out>
+         <system-err><![CDATA[03-02-2026T10:03:35 - [TEST_CASE][FAILED] - Test Cases/Click - Fixed Asset Button: Test Cases/Click - Fixed Asset Button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/login session object/Button - Fixed Asset'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Click - Fixed Asset Button.run(Click - Fixed Asset Button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login session object/Button - Fixed Asset' located by 'By.xpath: //a[@data-ts-name = 'module-fixed']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine" time="30.263" classname="Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)&#xa;	at Open - Addon Maintenance Routine.run(Open - Addon Maintenance Routine:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' located by 'By.xpath: //div[@data-menu-label = 'Addon']&#xa;' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[03-02-2026T10:04:05 - [TEST_CASE][FAILED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine: Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Open - Addon Maintenance Routine.run(Open - Addon Maintenance Routine:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' located by 'By.xpath: //div[@data-menu-label = 'Addon']
+' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+03-02-2026T10:04:05 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:04:05 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:04:05 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:04:05 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:04:05 - [TEST_STEP][FAILED] - click(findTestObject("Object - Maintenance Routine/Sidebar Menu - Addon")): Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Open - Addon Maintenance Routine.run(Open - Addon Maintenance Routine:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' located by 'By.xpath: //div[@data-menu-label = 'Addon']
+' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769584354920.run(Script1769584354920.groovy:20)
+	... 15 more
+)
+
+03-02-2026T10:04:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Open - Addon Maintenance Routine.run(Open - Addon Maintenance Routine:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' located by 'By.xpath: //div[@data-menu-label = 'Addon']
+' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769584354920.run(Script1769584354920.groovy:20)
+	... 15 more
+)
+[[ATTACHMENT|D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087875966.png]]]]></system-out>
+         <system-err><![CDATA[03-02-2026T10:04:05 - [TEST_CASE][FAILED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine: Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Open - Addon Maintenance Routine.run(Open - Addon Maintenance Routine:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' located by 'By.xpath: //div[@data-menu-label = 'Addon']
+' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection" time="30.485" classname="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) varia...":""}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)&#xa;	at Create - New Indicator Template Selection.run(Create - New Indicator Template Selection:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Tab - Operations' located by 'By.xpath: //a[@href = '/addon/maintenance-routine/operations']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[03-02-2026T10:04:36 - [TEST_CASE][FAILED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Create - New Indicator Template Selection.run(Create - New Indicator Template Selection:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Tab - Operations' located by 'By.xpath: //a[@href = '/addon/maintenance-routine/operations']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+03-02-2026T10:04:36 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:04:36 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:04:36 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:04:36 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:04:36 - [TEST_STEP][FAILED] - click(findTestObject("Object - Maintenance Routine/Tab - Operations")): Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Create - New Indicator Template Selection.run(Create - New Indicator Template Selection:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Tab - Operations' located by 'By.xpath: //a[@href = '/addon/maintenance-routine/operations']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769656031076.run(Script1769656031076.groovy:20)
+	... 15 more
+)
+
+03-02-2026T10:05:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Create - New Indicator Template Selection.run(Create - New Indicator Template Selection:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Tab - Operations' located by 'By.xpath: //a[@href = '/addon/maintenance-routine/operations']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769656031076.run(Script1769656031076.groovy:20)
+	... 15 more
+)
+[[ATTACHMENT|D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770087906390.png]]]]></system-out>
+         <system-err><![CDATA[03-02-2026T10:04:36 - [TEST_CASE][FAILED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Create - New Indicator Template Selection.run(Create - New Indicator Template Selection:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Tab - Operations' located by 'By.xpath: //a[@href = '/addon/maintenance-routine/operations']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Single Value" time="42.96" classname="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Single Value" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) varia...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2026T10:05:06 - [TEST_CASE][PASSED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Single Value: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Single Value
+
+03-02-2026T10:05:06 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:05:06 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:05:06 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:05:06 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Tab - Operations")): Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Badge - Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:05:22 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Add Template")): Object: 'Object Repository/Object - Maintenance Routine/Button - Add Template' is clicked on
+
+03-02-2026T10:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Add Template' is clicked on
+
+03-02-2026T10:05:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Template Name"), "Testing Template Single Value"): Text 'Testing Template Single Value' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Name'
+
+03-02-2026T10:05:26 - [MESSAGE][PASSED] - Text 'Testing Template Single Value' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Name'
+
+03-02-2026T10:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Select Category in Dialog")): Object: 'Object Repository/Object - Maintenance Routine/Button - Select Category in Dialog' is clicked on
+
+03-02-2026T10:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Select Category in Dialog' is clicked on
+
+03-02-2026T10:05:28 - [TEST_STEP][PASSED] - company.EntitySelector.selectCategoryInDialog(defaultCategory): company.EntitySelector.selectCategoryInDialog is PASSED
+
+03-02-2026T10:05:29 - [MESSAGE][PASSED] - Object 'dynamicGroup' is visible
+
+03-02-2026T10:05:30 - [MESSAGE][PASSED] - Object: 'dynamicGroup' is clicked on
+
+03-02-2026T10:05:30 - [MESSAGE][INFO] - Category terpilih: Adit-Category
+
+03-02-2026T10:05:30 - [MESSAGE][PASSED] - company.EntitySelector.selectCategoryInDialog is PASSED
+
+03-02-2026T10:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Select")): Object: 'Object Repository/Object - Maintenance Routine/Button - Select' is clicked on
+
+03-02-2026T10:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Select' is clicked on
+
+03-02-2026T10:05:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Template Description"), generatedName): Text 'Data-HCz3UcyEhJ' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Description'
+
+03-02-2026T10:05:33 - [MESSAGE][PASSED] - Text 'Data-HCz3UcyEhJ' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Description'
+
+03-02-2026T10:05:33 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Add Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Button - Add Indicator' is clicked on
+
+03-02-2026T10:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Add Indicator' is clicked on
+
+03-02-2026T10:05:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Indicator Name"), "Servis"): Text 'Servis' is set on object 'Object Repository/Object - Maintenance Routine/Input - Indicator Name'
+
+03-02-2026T10:05:36 - [MESSAGE][PASSED] - Text 'Servis' is set on object 'Object Repository/Object - Maintenance Routine/Input - Indicator Name'
+
+03-02-2026T10:05:36 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Input - Select Type")): Object: 'Object Repository/Object - Maintenance Routine/Input - Select Type' is clicked on
+
+03-02-2026T10:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Input - Select Type' is clicked on
+
+03-02-2026T10:05:37 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List - Single Value")): Object: 'Object Repository/Object - Maintenance Routine/List - Single Value' is clicked on
+
+03-02-2026T10:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List - Single Value' is clicked on
+
+03-02-2026T10:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Input - Value Type")): Object: 'Object Repository/Object - Maintenance Routine/Input - Value Type' is clicked on
+
+03-02-2026T10:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Input - Value Type' is clicked on
+
+03-02-2026T10:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List - Number")): Object: 'Object Repository/Object - Maintenance Routine/List - Number' is clicked on
+
+03-02-2026T10:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List - Number' is clicked on
+
+03-02-2026T10:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Measurement"), "Suhu"): Text 'Suhu' is set on object 'Object Repository/Object - Maintenance Routine/Input - Measurement'
+
+03-02-2026T10:05:43 - [MESSAGE][PASSED] - Text 'Suhu' is set on object 'Object Repository/Object - Maintenance Routine/Input - Measurement'
+
+03-02-2026T10:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Save")): Object: 'Object Repository/Object - Maintenance Routine/Button - Save' is clicked on
+
+03-02-2026T10:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Save' is clicked on
+
+03-02-2026T10:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Submit")): Object: 'Object Repository/Object - Maintenance Routine/Button - Submit' is clicked on
+
+03-02-2026T10:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Submit' is clicked on
+
+03-02-2026T10:05:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object - Maintenance Routine/Toast - Success")): Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:05:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object - Maintenance Routine/Toast - Success"), "Success, template has been created."): Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.
+
+03-02-2026T10:05:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Range Value" time="29.881" classname="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Range Value" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) varia...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2026T10:05:49 - [TEST_CASE][PASSED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Range Value: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Range Value
+
+03-02-2026T10:05:49 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:05:49 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:05:49 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:05:49 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Tab - Operations")): Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Badge - Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Add Template")): Object: 'Object Repository/Object - Maintenance Routine/Button - Add Template' is clicked on
+
+03-02-2026T10:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Add Template' is clicked on
+
+03-02-2026T10:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Template Name"), "Testing Template Range Value"): Text 'Testing Template Range Value' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Name'
+
+03-02-2026T10:05:57 - [MESSAGE][PASSED] - Text 'Testing Template Range Value' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Name'
+
+03-02-2026T10:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Select Category in Dialog")): Object: 'Object Repository/Object - Maintenance Routine/Button - Select Category in Dialog' is clicked on
+
+03-02-2026T10:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Select Category in Dialog' is clicked on
+
+03-02-2026T10:05:58 - [TEST_STEP][PASSED] - company.EntitySelector.selectCategoryInDialog(defaultCategory): company.EntitySelector.selectCategoryInDialog is PASSED
+
+03-02-2026T10:05:59 - [MESSAGE][PASSED] - Object 'dynamicGroup' is visible
+
+03-02-2026T10:06:01 - [MESSAGE][PASSED] - Object: 'dynamicGroup' is clicked on
+
+03-02-2026T10:06:01 - [MESSAGE][INFO] - Category terpilih: Adit-Category
+
+03-02-2026T10:06:01 - [MESSAGE][PASSED] - company.EntitySelector.selectCategoryInDialog is PASSED
+
+03-02-2026T10:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Select")): Object: 'Object Repository/Object - Maintenance Routine/Button - Select' is clicked on
+
+03-02-2026T10:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Select' is clicked on
+
+03-02-2026T10:06:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Template Description"), generatedName): Text 'Data-HCz3UcyEhJ' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Description'
+
+03-02-2026T10:06:04 - [MESSAGE][PASSED] - Text 'Data-HCz3UcyEhJ' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Description'
+
+03-02-2026T10:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Add Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Button - Add Indicator' is clicked on
+
+03-02-2026T10:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Add Indicator' is clicked on
+
+03-02-2026T10:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Indicator Name"), "Servis"): Text 'Servis' is set on object 'Object Repository/Object - Maintenance Routine/Input - Indicator Name'
+
+03-02-2026T10:06:07 - [MESSAGE][PASSED] - Text 'Servis' is set on object 'Object Repository/Object - Maintenance Routine/Input - Indicator Name'
+
+03-02-2026T10:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Input - Select Type")): Object: 'Object Repository/Object - Maintenance Routine/Input - Select Type' is clicked on
+
+03-02-2026T10:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Input - Select Type' is clicked on
+
+03-02-2026T10:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List - Range Value")): Object: 'Object Repository/Object - Maintenance Routine/List - Range Value' is clicked on
+
+03-02-2026T10:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List - Range Value' is clicked on
+
+03-02-2026T10:06:09 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Input - Value Type")): Object: 'Object Repository/Object - Maintenance Routine/Input - Value Type' is clicked on
+
+03-02-2026T10:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Input - Value Type' is clicked on
+
+03-02-2026T10:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List - Number")): Object: 'Object Repository/Object - Maintenance Routine/List - Number' is clicked on
+
+03-02-2026T10:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List - Number' is clicked on
+
+03-02-2026T10:06:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Measurement"), "Suhu"): Text 'Suhu' is set on object 'Object Repository/Object - Maintenance Routine/Input - Measurement'
+
+03-02-2026T10:06:14 - [MESSAGE][PASSED] - Text 'Suhu' is set on object 'Object Repository/Object - Maintenance Routine/Input - Measurement'
+
+03-02-2026T10:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Save")): Object: 'Object Repository/Object - Maintenance Routine/Button - Save' is clicked on
+
+03-02-2026T10:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Save' is clicked on
+
+03-02-2026T10:06:15 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Submit")): Object: 'Object Repository/Object - Maintenance Routine/Button - Submit' is clicked on
+
+03-02-2026T10:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Submit' is clicked on
+
+03-02-2026T10:06:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object - Maintenance Routine/Toast - Success")): Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:06:19 - [MESSAGE][PASSED] - Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:06:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object - Maintenance Routine/Toast - Success"), "Success, template has been created."): Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.
+
+03-02-2026T10:06:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template" time="37.283" classname="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'dynamicEllipsis'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)&#xa;	at company.SpecificElipsis.chooseSpesificTask(SpecificElipsis.groovy:47)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Delete - Specific Indicator Template.run(Delete - Specific Indicator Template:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'dynamicEllipsis' located by 'By.xpath: //tr[.//span[text()='Testing Template Selection']]//button' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 26 more&#xa;"/>
+         <system-out><![CDATA[03-02-2026T10:06:19 - [TEST_CASE][FAILED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'dynamicEllipsis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at company.SpecificElipsis.chooseSpesificTask(SpecificElipsis.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Delete - Specific Indicator Template.run(Delete - Specific Indicator Template:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'dynamicEllipsis' located by 'By.xpath: //tr[.//span[text()='Testing Template Selection']]//button' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 26 more
+
+
+03-02-2026T10:06:19 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:06:19 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:06:19 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:06:19 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Tab - Operations")): Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Badge - Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:06:23 - [TEST_STEP][FAILED] - company.SpecificElipsis.chooseSpesificTask("Testing Template Selection"): Unable to click on object 'dynamicEllipsis'
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'dynamicEllipsis' located by 'By.xpath: //tr[.//span[text()='Testing Template Selection']]//button' not found
+
+03-02-2026T10:06:26 - [MESSAGE][WARNING] - Web element with id: 'dynamicEllipsis' located by 'By.xpath: //tr[.//span[text()='Testing Template Selection']]//button' not found
+
+03-02-2026T10:06:56 - [MESSAGE][FAILED] - Unable to click on object 'dynamicEllipsis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'dynamicEllipsis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at company.SpecificElipsis.chooseSpesificTask(SpecificElipsis.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Delete - Specific Indicator Template.run(Delete - Specific Indicator Template:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'dynamicEllipsis' located by 'By.xpath: //tr[.//span[text()='Testing Template Selection']]//button' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at company.SpecificElipsis.chooseSpesificTask(SpecificElipsis.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1769674586106.run(Script1769674586106.groovy:24)
+	... 15 more
+)
+[[ATTACHMENT|D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Indicator Template\\20260203_095921\\1770088016511.png]]
+
+03-02-2026T10:06:56 - [MESSAGE][FAILED] - Unable to click on object 'dynamicEllipsis'
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'dynamicEllipsis' located by 'By.xpath: //tr[.//span[text()='Testing Template Selection']]//button' not found]]></system-out>
+         <system-err><![CDATA[03-02-2026T10:06:19 - [TEST_CASE][FAILED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'dynamicEllipsis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at company.SpecificElipsis.chooseSpesificTask(SpecificElipsis.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Delete - Specific Indicator Template.run(Delete - Specific Indicator Template:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087561411.run(TempTestSuite1770087561411.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'dynamicEllipsis' located by 'By.xpath: //tr[.//span[text()='Testing Template Selection']]//button' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 26 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Edit - Indicator Template Selection" time="36.062" classname="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Edit - Indicator Template Selection" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) varia...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2026T10:06:56 - [TEST_CASE][PASSED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Edit - Indicator Template Selection: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Edit - Indicator Template Selection
+
+03-02-2026T10:06:56 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:06:56 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:06:56 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:06:56 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:06:56 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Tab - Operations")): Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Badge - Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:07:02 - [TEST_STEP][PASSED] - company.SpecificElipsis.chooseSpesificTask("Testing Template Single Value"): company.SpecificElipsis.chooseSpesificTask is PASSED
+
+03-02-2026T10:07:03 - [MESSAGE][PASSED] - Object 'dynamicEllipsis' is visible
+
+03-02-2026T10:07:05 - [MESSAGE][PASSED] - Object: 'dynamicEllipsis' is clicked on
+
+03-02-2026T10:07:05 - [MESSAGE][PASSED] - company.SpecificElipsis.chooseSpesificTask is PASSED
+
+03-02-2026T10:07:05 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List Elipsis - Edit")): Object: 'Object Repository/Object - Maintenance Routine/List Elipsis - Edit' is clicked on
+
+03-02-2026T10:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List Elipsis - Edit' is clicked on
+
+03-02-2026T10:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Template Name"), "Testing Edit"): Text 'Testing Edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Name'
+
+03-02-2026T10:07:08 - [MESSAGE][PASSED] - Text 'Testing Edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Name'
+
+03-02-2026T10:07:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Template Description"), generatedName): Text 'Data-HCz3UcyEhJ' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Description'
+
+03-02-2026T10:07:10 - [MESSAGE][PASSED] - Text 'Data-HCz3UcyEhJ' is set on object 'Object Repository/Object - Maintenance Routine/Input - Template Description'
+
+03-02-2026T10:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Add Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Button - Add Indicator' is clicked on
+
+03-02-2026T10:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Add Indicator' is clicked on
+
+03-02-2026T10:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Indicator Name"), "Servis edit"): Text 'Servis edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Indicator Name'
+
+03-02-2026T10:07:13 - [MESSAGE][PASSED] - Text 'Servis edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Indicator Name'
+
+03-02-2026T10:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Input - Select Type")): Object: 'Object Repository/Object - Maintenance Routine/Input - Select Type' is clicked on
+
+03-02-2026T10:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Input - Select Type' is clicked on
+
+03-02-2026T10:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List - Selection")): Object: 'Object Repository/Object - Maintenance Routine/List - Selection' is clicked on
+
+03-02-2026T10:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List - Selection' is clicked on
+
+03-02-2026T10:07:16 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Input - Value Type")): Object: 'Object Repository/Object - Maintenance Routine/Input - Value Type' is clicked on
+
+03-02-2026T10:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Input - Value Type' is clicked on
+
+03-02-2026T10:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List - Text")): Object: 'Object Repository/Object - Maintenance Routine/List - Text' is clicked on
+
+03-02-2026T10:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List - Text' is clicked on
+
+03-02-2026T10:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Measurement"), "Condition edit"): Text 'Condition edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Measurement'
+
+03-02-2026T10:07:22 - [MESSAGE][PASSED] - Text 'Condition edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Measurement'
+
+03-02-2026T10:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Add Selection")): Object: 'Object Repository/Object - Maintenance Routine/Button - Add Selection' is clicked on
+
+03-02-2026T10:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Add Selection' is clicked on
+
+03-02-2026T10:07:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Selection value 1"), "Good edit"): Text 'Good edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Selection value 1'
+
+03-02-2026T10:07:25 - [MESSAGE][PASSED] - Text 'Good edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Selection value 1'
+
+03-02-2026T10:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Selection value 2"), "Need Repair edit"): Text 'Need Repair edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Selection value 2'
+
+03-02-2026T10:07:26 - [MESSAGE][PASSED] - Text 'Need Repair edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Selection value 2'
+
+03-02-2026T10:07:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object - Maintenance Routine/Input - Selection value 3"), "Broken edit"): Text 'Broken edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Selection value 3'
+
+03-02-2026T10:07:28 - [MESSAGE][PASSED] - Text 'Broken edit' is set on object 'Object Repository/Object - Maintenance Routine/Input - Selection value 3'
+
+03-02-2026T10:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Save Edit")): Object: 'Object Repository/Object - Maintenance Routine/Button - Save Edit' is clicked on
+
+03-02-2026T10:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Save Edit' is clicked on
+
+03-02-2026T10:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Save")): Object: 'Object Repository/Object - Maintenance Routine/Button - Save' is clicked on
+
+03-02-2026T10:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Save' is clicked on
+
+03-02-2026T10:07:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object - Maintenance Routine/Toast - Success")): Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:07:32 - [MESSAGE][PASSED] - Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:07:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object - Maintenance Routine/Toast - Success"), "Success, template has been edited."): Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.
+
+03-02-2026T10:07:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Bulk Action - Delete Indicator Template" time="11.978" classname="Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Bulk Action - Delete Indicator Template" status="PASSED">
+         <system-out><![CDATA[03-02-2026T10:07:32 - [TEST_CASE][PASSED] - Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Bulk Action - Delete Indicator Template: Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Bulk Action - Delete Indicator Template
+
+03-02-2026T10:07:32 - [TEST_STEP][PASSED] - Start listener action : setupNameData: null
+
+03-02-2026T10:07:32 - [TEST_STEP][PASSED] - if (!(isRunningFromSuite)): null
+
+03-02-2026T10:07:32 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T10:07:32 - [TEST_STEP][PASSED] - println("SKIP GENERATE: Menggunakan data dari Test Suite Setup."): null
+
+03-02-2026T10:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Tab - Operations")): Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Tab - Operations' is clicked on
+
+03-02-2026T10:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Badge - Indicator")): Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Badge - Indicator' is clicked on
+
+03-02-2026T10:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Checkbox - Header Table")): Object: 'Object Repository/Object - Maintenance Routine/Checkbox - Header Table' is clicked on
+
+03-02-2026T10:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Checkbox - Header Table' is clicked on
+
+03-02-2026T10:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Bulk Action")): Object: 'Object Repository/Object - Maintenance Routine/Button - Bulk Action' is clicked on
+
+03-02-2026T10:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Bulk Action' is clicked on
+
+03-02-2026T10:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/List Elipsis - Delete")): Object: 'Object Repository/Object - Maintenance Routine/List Elipsis - Delete' is clicked on
+
+03-02-2026T10:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/List Elipsis - Delete' is clicked on
+
+03-02-2026T10:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Object - Maintenance Routine/Button - Confirm Delete")): Object: 'Object Repository/Object - Maintenance Routine/Button - Confirm Delete' is clicked on
+
+03-02-2026T10:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Object - Maintenance Routine/Button - Confirm Delete' is clicked on
+
+03-02-2026T10:07:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object - Maintenance Routine/Toast - Success")): Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:07:44 - [MESSAGE][PASSED] - Object 'Object Repository/Object - Maintenance Routine/Toast - Success' is visible
+
+03-02-2026T10:07:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object - Maintenance Routine/Toast - Success"), "Success, template has been deleted."): Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.
+
+03-02-2026T10:07:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Object - Maintenance Routine/Toast - Success' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-02-2026T10:02:51 - [TEST_STEP][PASSED] - Start listener action : setupCrudData: null
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - isRunningFromSuite = true: null
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - generateCommonData("Suite"): null
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - randomName = company.RandomGenerator.generateRandomText(10, "ALPHANUMERIC"): company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [MESSAGE][PASSED] - company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - randomNameWithoutChar = company.RandomGenerator.generateRandomText(10, "ALPHANUMERIC"): company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [MESSAGE][PASSED] - company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - randomCodeName = company.RandomGenerator.generateRandomText(4, "ALPHANUMERIC"): company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [MESSAGE][PASSED] - company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - randomEditedName = company.RandomGenerator.generateRandomText(10, "ALPHANUMERIC"): company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [MESSAGE][PASSED] - company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - randomOver30Name = company.RandomGenerator.generateRandomText(30, "ALPHANUMERIC"): company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [MESSAGE][PASSED] - company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - randomOver60Name = company.RandomGenerator.generateRandomText(60, "ALPHANUMERIC"): company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [MESSAGE][PASSED] - company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - randomOver120Name = company.RandomGenerator.generateRandomText(120, "ALPHANUMERIC"): company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [MESSAGE][PASSED] - company.RandomGenerator.generateRandomText is PASSED
+
+03-02-2026T10:02:51 - [TEST_STEP][PASSED] - generatedName = "Data-" + randomName: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - generatedNameWithoutChar = "TES" + randomNameWithoutChar: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - generatedCodeName = randomCodeName.toUpperCase(): null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - generatedEditedName = "Data-" + randomEditedName: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - generatedOver30Name = "Data-" + randomOver30Name: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - generatedOver60Name = "Data-" + randomOver60Name: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - generatedOver120Name = "Tes" + randomOver120Name: null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - println("======================================================"): null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - println("RUNNING FROM TEST SUITE: Data di-generate sekali untuk semua TC."): null
+
+03-02-2026T10:02:52 - [TEST_STEP][PASSED] - println("======================================================"): null
+
+03-02-2026T10:02:51 - [TEST_SUITE][FAILED] - Indicator Template: null]]></system-out>
+      <system-err><![CDATA[03-02-2026T10:02:51 - [TEST_SUITE][FAILED] - Indicator Template: null]]></system-err>
+   </testsuite>
+</testsuites>

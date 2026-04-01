@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Indicator Template,Chrome 144.0.7559.110,,,03-02-2026 10:02:51,03-02-2026 10:07:45,4m - 53.668s,FAILED
+,,,,,,,
+Start listener action : setupCrudData,Chrome 144.0.7559.110,,,03-02-2026 10:02:51,03-02-2026 10:02:52,0.889s,PASSED
+,,,,,,,
+Test Cases/Module - Auth/Positive/Login User,Chrome 144.0.7559.110,,,03-02-2026 10:02:52,03-02-2026 10:03:35,42.917s,FAILED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:02:52,03-02-2026 10:02:52,0.012s,PASSED
+openBrowser(Url),Chrome 144.0.7559.110,,,03-02-2026 10:02:52,03-02-2026 10:03:04,12.307s,PASSED
+maximizeWindow(),Chrome 144.0.7559.110,,,03-02-2026 10:03:04,03-02-2026 10:03:04,0.063s,PASSED
+"setText(findTestObject(""login session object/Input - Email""), Email)",Chrome 144.0.7559.110,,,03-02-2026 10:03:04,03-02-2026 10:03:35,30.381s,FAILED
+,,,,,,,
+Test Cases/Click - Fixed Asset Button,Chrome 144.0.7559.110,,,03-02-2026 10:03:35,03-02-2026 10:04:05,30.439s,FAILED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:03:35,03-02-2026 10:03:35,0.009s,PASSED
+"click(findTestObject(""login session object/Button - Fixed Asset""))",Chrome 144.0.7559.110,,,03-02-2026 10:03:35,03-02-2026 10:04:05,30.358s,FAILED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine,Chrome 144.0.7559.110,,,03-02-2026 10:04:05,03-02-2026 10:04:36,30.263s,FAILED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:04:05,03-02-2026 10:04:05,0.002s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Sidebar Menu - Addon""))",Chrome 144.0.7559.110,,,03-02-2026 10:04:05,03-02-2026 10:04:36,30.192s,FAILED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Selection,Chrome 144.0.7559.110,,,03-02-2026 10:04:36,03-02-2026 10:05:06,30.485s,FAILED
+"DATA BINDING - {""(Default) varia..."":""""}",,,,,,,
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:04:36,03-02-2026 10:04:36,0.002s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Tab - Operations""))",Chrome 144.0.7559.110,,,03-02-2026 10:04:36,03-02-2026 10:05:06,30.369s,FAILED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Single Value,Chrome 144.0.7559.110,,,03-02-2026 10:05:06,03-02-2026 10:05:49,42.960s,PASSED
+"DATA BINDING - {""(Default) varia..."":""""}",,,,,,,
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:05:06,03-02-2026 10:05:06,0.002s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Tab - Operations""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:06,03-02-2026 10:05:17,11.131s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Badge - Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:17,03-02-2026 10:05:22,4.472s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Add Template""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:22,03-02-2026 10:05:25,2.996s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Template Name""), ""Testing Template Single Value"")",Chrome 144.0.7559.110,,,03-02-2026 10:05:25,03-02-2026 10:05:26,1.733s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Select Category in Dialog""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:26,03-02-2026 10:05:28,1.165s,PASSED
+company.EntitySelector.selectCategoryInDialog(defaultCategory),Chrome 144.0.7559.110,,,03-02-2026 10:05:28,03-02-2026 10:05:30,2.238s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Select""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:30,03-02-2026 10:05:31,1.368s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Template Description""), generatedName)",Chrome 144.0.7559.110,,,03-02-2026 10:05:31,03-02-2026 10:05:33,1.711s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Add Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:33,03-02-2026 10:05:34,1.257s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Indicator Name""), ""Servis"")",Chrome 144.0.7559.110,,,03-02-2026 10:05:34,03-02-2026 10:05:36,1.744s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Input - Select Type""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:36,03-02-2026 10:05:37,1.380s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List - Single Value""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:37,03-02-2026 10:05:39,1.415s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Input - Value Type""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:39,03-02-2026 10:05:40,1.423s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List - Number""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:40,03-02-2026 10:05:42,1.359s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Measurement""), ""Suhu"")",Chrome 144.0.7559.110,,,03-02-2026 10:05:42,03-02-2026 10:05:43,1.763s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Save""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:43,03-02-2026 10:05:45,1.384s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Submit""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:45,03-02-2026 10:05:46,1.435s,PASSED
+"verifyElementVisible(findTestObject(""Object - Maintenance Routine/Toast - Success""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:46,03-02-2026 10:05:49,2.598s,PASSED
+"verifyElementText(findTestObject(""Object - Maintenance Routine/Toast - Success""), ""Success, template has been created."")",Chrome 144.0.7559.110,,,03-02-2026 10:05:49,03-02-2026 10:05:49,0.295s,PASSED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Create - New Indicator Template Range Value,Chrome 144.0.7559.110,,,03-02-2026 10:05:49,03-02-2026 10:06:19,29.881s,PASSED
+"DATA BINDING - {""(Default) varia..."":""""}",,,,,,,
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:05:49,03-02-2026 10:05:49,0.003s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Tab - Operations""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:49,03-02-2026 10:05:50,1.312s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Badge - Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:50,03-02-2026 10:05:54,3.165s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Add Template""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:54,03-02-2026 10:05:55,1.892s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Template Name""), ""Testing Template Range Value"")",Chrome 144.0.7559.110,,,03-02-2026 10:05:55,03-02-2026 10:05:57,1.729s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Select Category in Dialog""))",Chrome 144.0.7559.110,,,03-02-2026 10:05:57,03-02-2026 10:05:58,1.179s,PASSED
+company.EntitySelector.selectCategoryInDialog(defaultCategory),Chrome 144.0.7559.110,,,03-02-2026 10:05:58,03-02-2026 10:06:01,2.201s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Select""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:01,03-02-2026 10:06:02,1.376s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Template Description""), generatedName)",Chrome 144.0.7559.110,,,03-02-2026 10:06:02,03-02-2026 10:06:04,1.685s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Add Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:04,03-02-2026 10:06:05,1.174s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Indicator Name""), ""Servis"")",Chrome 144.0.7559.110,,,03-02-2026 10:06:05,03-02-2026 10:06:07,1.712s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Input - Select Type""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:07,03-02-2026 10:06:08,1.444s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List - Range Value""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:08,03-02-2026 10:06:09,1.406s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Input - Value Type""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:09,03-02-2026 10:06:11,1.413s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List - Number""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:11,03-02-2026 10:06:12,1.385s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Measurement""), ""Suhu"")",Chrome 144.0.7559.110,,,03-02-2026 10:06:12,03-02-2026 10:06:14,1.711s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Save""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:14,03-02-2026 10:06:15,1.386s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Submit""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:15,03-02-2026 10:06:17,1.431s,PASSED
+"verifyElementVisible(findTestObject(""Object - Maintenance Routine/Toast - Success""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:17,03-02-2026 10:06:19,1.949s,PASSED
+"verifyElementText(findTestObject(""Object - Maintenance Routine/Toast - Success""), ""Success, template has been created."")",Chrome 144.0.7559.110,,,03-02-2026 10:06:19,03-02-2026 10:06:19,0.243s,PASSED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Delete - Specific Indicator Template,Chrome 144.0.7559.110,,,03-02-2026 10:06:19,03-02-2026 10:06:56,37.283s,FAILED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:06:19,03-02-2026 10:06:19,0.001s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Tab - Operations""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:19,03-02-2026 10:06:20,1.306s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Badge - Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:20,03-02-2026 10:06:23,2.411s,PASSED
+"company.SpecificElipsis.chooseSpesificTask(""Testing Template Selection"")",Chrome 144.0.7559.110,,,03-02-2026 10:06:23,03-02-2026 10:06:56,33.510s,FAILED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Edit - Indicator Template Selection,Chrome 144.0.7559.110,,,03-02-2026 10:06:56,03-02-2026 10:07:32,36.062s,PASSED
+"DATA BINDING - {""(Default) varia..."":""""}",,,,,,,
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:06:56,03-02-2026 10:06:56,0.005s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Tab - Operations""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:56,03-02-2026 10:06:59,3.067s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Badge - Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:06:59,03-02-2026 10:07:02,2.470s,PASSED
+"company.SpecificElipsis.chooseSpesificTask(""Testing Template Single Value"")",Chrome 144.0.7559.110,,,03-02-2026 10:07:02,03-02-2026 10:07:05,2.813s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List Elipsis - Edit""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:05,03-02-2026 10:07:06,1.417s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Template Name""), ""Testing Edit"")",Chrome 144.0.7559.110,,,03-02-2026 10:07:06,03-02-2026 10:07:08,2.322s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Template Description""), generatedName)",Chrome 144.0.7559.110,,,03-02-2026 10:07:08,03-02-2026 10:07:10,1.734s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Add Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:10,03-02-2026 10:07:11,1.198s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Indicator Name""), ""Servis edit"")",Chrome 144.0.7559.110,,,03-02-2026 10:07:11,03-02-2026 10:07:13,1.739s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Input - Select Type""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:13,03-02-2026 10:07:14,1.409s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List - Selection""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:14,03-02-2026 10:07:16,1.397s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Input - Value Type""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:16,03-02-2026 10:07:19,2.830s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List - Text""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:19,03-02-2026 10:07:20,1.424s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Measurement""), ""Condition edit"")",Chrome 144.0.7559.110,,,03-02-2026 10:07:20,03-02-2026 10:07:22,1.731s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Add Selection""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:22,03-02-2026 10:07:23,1.395s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Selection value 1""), ""Good edit"")",Chrome 144.0.7559.110,,,03-02-2026 10:07:23,03-02-2026 10:07:25,1.701s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Selection value 2""), ""Need Repair edit"")",Chrome 144.0.7559.110,,,03-02-2026 10:07:25,03-02-2026 10:07:26,1.532s,PASSED
+"setText(findTestObject(""Object - Maintenance Routine/Input - Selection value 3""), ""Broken edit"")",Chrome 144.0.7559.110,,,03-02-2026 10:07:26,03-02-2026 10:07:28,1.533s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Save Edit""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:28,03-02-2026 10:07:29,1.197s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Save""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:29,03-02-2026 10:07:31,1.418s,PASSED
+"verifyElementVisible(findTestObject(""Object - Maintenance Routine/Toast - Success""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:31,03-02-2026 10:07:32,1.390s,PASSED
+"verifyElementText(findTestObject(""Object - Maintenance Routine/Toast - Success""), ""Success, template has been edited."")",Chrome 144.0.7559.110,,,03-02-2026 10:07:32,03-02-2026 10:07:32,0.250s,PASSED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive (New)/Bulk Action - Delete Indicator Template,Chrome 144.0.7559.110,,,03-02-2026 10:07:32,03-02-2026 10:07:44,11.978s,PASSED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 10:07:32,03-02-2026 10:07:32,0.001s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Tab - Operations""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:32,03-02-2026 10:07:34,1.335s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Badge - Indicator""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:34,03-02-2026 10:07:36,2.416s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Checkbox - Header Table""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:36,03-02-2026 10:07:38,1.846s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Bulk Action""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:38,03-02-2026 10:07:39,1.383s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/List Elipsis - Delete""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:39,03-02-2026 10:07:41,1.396s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Button - Confirm Delete""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:41,03-02-2026 10:07:42,1.395s,PASSED
+"verifyElementVisible(findTestObject(""Object - Maintenance Routine/Toast - Success""))",Chrome 144.0.7559.110,,,03-02-2026 10:07:42,03-02-2026 10:07:44,1.895s,PASSED
+"verifyElementText(findTestObject(""Object - Maintenance Routine/Toast - Success""), ""Success, template has been deleted."")",Chrome 144.0.7559.110,,,03-02-2026 10:07:44,03-02-2026 10:07:44,0.257s,PASSED

@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Addon - Maintenance Routine/Maintenance Routine Collection",
+  "name": "Maintenance Routine Collection",
+  "reportFolder": "D:\\ka\\Reports\\20260203_095918\\Addon - Maintenance Routine\\Maintenance Routine Collection\\20260203_095918",
+  "startTime": 1770087563156,
+  "endTime": 1770088065856,
+  "totalPassedTestCases": "9",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "7",
+  "totalTestCases": "16",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

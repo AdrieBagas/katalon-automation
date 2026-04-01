@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Schecule,Chrome 144.0.7559.110,,,03-02-2026 13:54:04,03-02-2026 13:55:48,1m - 43.339s,FAILED
+,,,,,,,
+Start listener action : setupCrudData,Chrome 144.0.7559.110,,,03-02-2026 13:54:04,03-02-2026 13:54:05,0.862s,PASSED
+,,,,,,,
+Test Cases/Module - Auth/Positive/Login User,Chrome 144.0.7559.110,,,03-02-2026 13:54:05,03-02-2026 13:54:20,14.649s,PASSED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 13:54:05,03-02-2026 13:54:05,0.007s,PASSED
+openBrowser(Url),Chrome 144.0.7559.110,,,03-02-2026 13:54:06,03-02-2026 13:54:09,3.665s,PASSED
+maximizeWindow(),Chrome 144.0.7559.110,,,03-02-2026 13:54:09,03-02-2026 13:54:09,0.130s,PASSED
+"setText(findTestObject(""login session object/Input - Email""), Email)",Chrome 144.0.7559.110,,,03-02-2026 13:54:09,03-02-2026 13:54:17,7.691s,PASSED
+"setText(findTestObject(""login session object/Input - Password""), Password)",Chrome 144.0.7559.110,,,03-02-2026 13:54:17,03-02-2026 13:54:19,1.702s,PASSED
+"click(findTestObject(""login session object/Button - Login""))",Chrome 144.0.7559.110,,,03-02-2026 13:54:19,03-02-2026 13:54:20,1.338s,PASSED
+,,,,,,,
+Test Cases/Click - Fixed Asset Button,Chrome 144.0.7559.110,,,03-02-2026 13:54:20,03-02-2026 13:54:33,12.892s,PASSED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 13:54:20,03-02-2026 13:54:20,0.006s,PASSED
+"click(findTestObject(""login session object/Button - Fixed Asset""))",Chrome 144.0.7559.110,,,03-02-2026 13:54:20,03-02-2026 13:54:33,12.791s,PASSED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine,Chrome 144.0.7559.110,,,03-02-2026 13:54:33,03-02-2026 13:55:03,30.413s,FAILED
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 13:54:33,03-02-2026 13:54:33,0.002s,PASSED
+"click(findTestObject(""Object - Maintenance Routine/Sidebar Menu - Addon""))",Chrome 144.0.7559.110,,,03-02-2026 13:54:33,03-02-2026 13:55:03,30.345s,FAILED
+,,,,,,,
+Test Cases/Module - Addon/Submodule - Maintenance Routine/Positive/Create Schedule - From Maintenance routine,Chrome 144.0.7559.110,,,03-02-2026 13:55:03,03-02-2026 13:55:47,43.734s,FAILED
+"DATA BINDING - {""(Default) secon..."":""Value 2"",""(Default) first..."":""Value 1""}",,,,,,,
+Start listener action : setupNameData,Chrome 144.0.7559.110,,,03-02-2026 13:55:04,03-02-2026 13:55:04,0.002s,PASSED
+"company.UrlValidator.verifyUrl(""/addon/maintenance-routine/schedule"")",Chrome 144.0.7559.110,,,03-02-2026 13:55:04,03-02-2026 13:55:17,13.117s,FAILED
+"click(findTestObject(""Object - Maintenance Routine/Button - Schedule""))",Chrome 144.0.7559.110,,,03-02-2026 13:55:17,03-02-2026 13:55:47,30.340s,FAILED

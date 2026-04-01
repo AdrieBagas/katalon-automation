@@ -1,0 +1,33 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Input - Email",
+      "brokenLocator": "//input[@placeholder \u003d \u0027Enter your email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@placeholder \u003d \u0027Enter your email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Input - Email_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Object - Custom Field/Button - Select Category",
+      "brokenLocator": "//button[@aria-label \u003d \u0027Select Category\u0027 and (text() \u003d \u0027Select Category\u0027 or . \u003d \u0027Select Category\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[46]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Object - Custom Field/Button - Select Category_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/login session object/Button - Profile",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/login session object/Button - Profile_XPATH.png"
+    }
+  ]
+}

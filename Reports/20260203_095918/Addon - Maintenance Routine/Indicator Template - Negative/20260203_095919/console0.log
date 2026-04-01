@@ -1,0 +1,359 @@
+2026-02-03 09:59:26.607 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\LENOVO\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2026-02-03 09:59:26.610 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\ka\Include\config\log.properties
+2026-02-03 09:59:27.234 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Addon - Maintenance Routine/Indicator Template - Negative
+2026-02-03 09:59:27.338 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Aditya Daffa Syahputra
+2026-02-03 09:59:27.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-automation
+2026-02-03 09:59:27.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = LENOVO - LAPTOP-JCNL1CVB
+2026-02-03 09:59:27.341 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-03 09:59:27.342 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.88.131
+2026-02-03 09:59:27.343 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2026-02-03 09:59:27.432 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 09:59:27.439 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 09:59:27.444 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 09:59:27.451 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 09:59:27.457 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 09:59:27.463 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 09:59:27.469 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+======================================================
+RUNNING FROM TEST SUITE: Data di-generate sekali untuk semua TC.
+======================================================
+2026-02-03 09:59:28.309 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 09:59:28.309 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Auth/Positive/Login User
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 09:59:28.426 DEBUG testcase.Login User                      - 1: openBrowser(Url)
+2026-02-03 09:59:28.691 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-03 09:59:28.740 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 800 milliseconds
+Feb 03, 2026 9:59:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 03, 2026 9:59:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-02-03 09:59:30.474 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d2a099fc7db03f0bb56b75ab019bd39e
+2026-02-03 09:59:30.476 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.110
+2026-02-03 09:59:30.477 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-03 09:59:30.478 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-03 09:59:30.495 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-03 09:59:31.556 DEBUG testcase.Login User                      - 2: maximizeWindow()
+2026-02-03 09:59:31.636 DEBUG testcase.Login User                      - 3: setText(findTestObject("login session object/Input - Email"), Email)
+2026-02-03 09:59:38.073 DEBUG testcase.Login User                      - 4: setText(findTestObject("login session object/Input - Password"), Password)
+2026-02-03 09:59:39.635 DEBUG testcase.Login User                      - 5: click(findTestObject("login session object/Button - Login"))
+2026-02-03 09:59:40.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Module - Auth/Positive/Login User
+2026-02-03 09:59:40.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 09:59:40.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Click - Fixed Asset Button
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 09:59:40.977 DEBUG testcase.Click - Fixed Asset Button      - 1: click(findTestObject("login session object/Button - Fixed Asset"))
+2026-02-03 09:59:47.964 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Click - Fixed Asset Button
+2026-02-03 09:59:47.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 09:59:47.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 09:59:48.022 DEBUG t.Open - Addon Maintenance Routine       - 1: click(findTestObject("Object - Maintenance Routine/Sidebar Menu - Addon"))
+2026-02-03 10:00:18.354 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Open - Addon Maintenance Routine.run(Open - Addon Maintenance Routine:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087559542.run(TempTestSuite1770087559542.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' located by 'By.xpath: //div[@data-menu-label = 'Addon']
+' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769584354920.run(Script1769584354920.groovy:20)
+	... 15 more
+)
+2026-02-03 10:00:18.361 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Open - Addon Maintenance Routine.run(Open - Addon Maintenance Routine:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087559542.run(TempTestSuite1770087559542.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Sidebar Menu - Addon' located by 'By.xpath: //div[@data-menu-label = 'Addon']
+' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-02-03 10:00:18.365 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine
+2026-02-03 10:00:18.369 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 10:00:18.369 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - Indicator Template with Template name Empty
+2026-02-03 10:00:18.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) variable = 
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 10:00:18.552 DEBUG icator Template with Template name Empty - 1: click(findTestObject("Object - Maintenance Routine/Tab - Operations"))
+2026-02-03 10:00:49.096 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Create - Indicator Template with Template name Empty.run(Create - Indicator Template with Template name Empty:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087559542.run(TempTestSuite1770087559542.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Tab - Operations' located by 'By.xpath: //a[@href = '/addon/maintenance-routine/operations']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769656031076.run(Script1769656031076.groovy:20)
+	... 15 more
+)
+2026-02-03 10:00:49.100 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - Indicator Template with Template name Empty FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Object - Maintenance Routine/Tab - Operations'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Create - Indicator Template with Template name Empty.run(Create - Indicator Template with Template name Empty:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770087559542.run(TempTestSuite1770087559542.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object - Maintenance Routine/Tab - Operations' located by 'By.xpath: //a[@href = '/addon/maintenance-routine/operations']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-02-03 10:00:49.103 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - Indicator Template with Template name Empty
+2026-02-03 10:00:49.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 10:00:49.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - Indicator Template with Empty Category
+2026-02-03 10:00:49.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) variable = 
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 10:00:49.218 DEBUG icator Template with Template name Empty - 1: click(findTestObject("Object - Maintenance Routine/Tab - Operations"))
+2026-02-03 10:00:58.036 DEBUG icator Template with Template name Empty - 2: click(findTestObject("Object - Maintenance Routine/Badge - Indicator"))
+2026-02-03 10:01:00.519 DEBUG icator Template with Template name Empty - 3: click(findTestObject("Object - Maintenance Routine/Button - Add Template"))
+2026-02-03 10:01:02.845 DEBUG icator Template with Template name Empty - 4: setText(findTestObject("Object - Maintenance Routine/Input - Template Name"), "Testing Template Selection")
+2026-02-03 10:01:04.699 DEBUG icator Template with Template name Empty - 5: setText(findTestObject("Object - Maintenance Routine/Input - Template Description"), generatedName)
+2026-02-03 10:01:07.298 DEBUG icator Template with Template name Empty - 6: click(findTestObject("Object - Maintenance Routine/Button - Add Indicator"))
+2026-02-03 10:01:08.493 DEBUG icator Template with Template name Empty - 7: setText(findTestObject("Object - Maintenance Routine/Input - Indicator Name"), "Servis")
+2026-02-03 10:01:10.219 DEBUG icator Template with Template name Empty - 8: click(findTestObject("Object - Maintenance Routine/Input - Select Type"))
+2026-02-03 10:01:11.619 DEBUG icator Template with Template name Empty - 9: click(findTestObject("Object - Maintenance Routine/List - Selection"))
+2026-02-03 10:01:13.027 DEBUG icator Template with Template name Empty - 10: click(findTestObject("Object - Maintenance Routine/Input - Value Type"))
+2026-02-03 10:01:14.421 DEBUG icator Template with Template name Empty - 11: click(findTestObject("Object - Maintenance Routine/List - Text"))
+2026-02-03 10:01:15.791 DEBUG icator Template with Template name Empty - 12: setText(findTestObject("Object - Maintenance Routine/Input - Measurement"), "Condition")
+2026-02-03 10:01:17.524 DEBUG icator Template with Template name Empty - 13: click(findTestObject("Object - Maintenance Routine/Button - Add Selection"))
+2026-02-03 10:01:18.945 DEBUG icator Template with Template name Empty - 14: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 1"), "Good")
+2026-02-03 10:01:20.630 DEBUG icator Template with Template name Empty - 15: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 2"), "Need Repair")
+2026-02-03 10:01:22.171 DEBUG icator Template with Template name Empty - 16: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 3"), "Broken")
+2026-02-03 10:01:23.679 DEBUG icator Template with Template name Empty - 17: click(findTestObject("Object - Maintenance Routine/Button - Save"))
+2026-02-03 10:01:24.875 DEBUG icator Template with Template name Empty - 18: click(findTestObject("Object - Maintenance Routine/Button - Submit"))
+2026-02-03 10:01:26.238 DEBUG icator Template with Template name Empty - 19: company.validatorMessage.verifyErrorMessage("You must pick a category")
+2026-02-03 10:01:26.756 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.validatorMessage.verifyErrorMessage is PASSED
+2026-02-03 10:01:26.756 DEBUG icator Template with Template name Empty - 20: click(findTestObject("Object - Maintenance Routine/Button - Close"))
+2026-02-03 10:01:27.969 DEBUG icator Template with Template name Empty - 21: click(findTestObject("Object - Maintenance Routine/Button - Continue"))
+2026-02-03 10:01:29.252 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - Indicator Template with Empty Category
+2026-02-03 10:01:29.256 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 10:01:29.256 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - New Indicator Template with Template Desc over 120char
+2026-02-03 10:01:29.281 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) variable = 
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 10:01:29.453 DEBUG icator Template with Template name Empty - 1: click(findTestObject("Object - Maintenance Routine/Tab - Operations"))
+2026-02-03 10:01:30.797 DEBUG icator Template with Template name Empty - 2: click(findTestObject("Object - Maintenance Routine/Badge - Indicator"))
+2026-02-03 10:01:34.967 DEBUG icator Template with Template name Empty - 3: click(findTestObject("Object - Maintenance Routine/Button - Add Template"))
+2026-02-03 10:01:37.628 DEBUG icator Template with Template name Empty - 4: setText(findTestObject("Object - Maintenance Routine/Input - Template Name"), "Testing Template Selection")
+2026-02-03 10:01:39.389 DEBUG icator Template with Template name Empty - 5: click(findTestObject("Object - Maintenance Routine/Button - Select Category in Dialog"))
+2026-02-03 10:01:40.565 DEBUG icator Template with Template name Empty - 6: company.EntitySelector.selectCategoryInDialog(defaultCategory)
+2026-02-03 10:01:42.810 INFO  com.kms.katalon.core.util.KeywordUtil    - Category terpilih: Adit-Category
+2026-02-03 10:01:42.811 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.EntitySelector.selectCategoryInDialog is PASSED
+2026-02-03 10:01:42.812 DEBUG icator Template with Template name Empty - 7: click(findTestObject("Object - Maintenance Routine/Button - Select"))
+2026-02-03 10:01:44.609 DEBUG icator Template with Template name Empty - 8: setText(findTestObject("Object - Maintenance Routine/Input - Template Description"), generatedOver120Name)
+2026-02-03 10:01:46.552 DEBUG icator Template with Template name Empty - 9: click(findTestObject("Object - Maintenance Routine/Button - Add Indicator"))
+2026-02-03 10:01:47.980 DEBUG icator Template with Template name Empty - 10: setText(findTestObject("Object - Maintenance Routine/Input - Indicator Name"), "Servis")
+2026-02-03 10:01:49.679 DEBUG icator Template with Template name Empty - 11: click(findTestObject("Object - Maintenance Routine/Input - Select Type"))
+2026-02-03 10:01:51.061 DEBUG icator Template with Template name Empty - 12: click(findTestObject("Object - Maintenance Routine/List - Selection"))
+2026-02-03 10:01:52.458 DEBUG icator Template with Template name Empty - 13: click(findTestObject("Object - Maintenance Routine/Input - Value Type"))
+2026-02-03 10:01:53.833 DEBUG icator Template with Template name Empty - 14: click(findTestObject("Object - Maintenance Routine/List - Text"))
+2026-02-03 10:01:55.178 DEBUG icator Template with Template name Empty - 15: setText(findTestObject("Object - Maintenance Routine/Input - Measurement"), "Condition")
+2026-02-03 10:01:56.903 DEBUG icator Template with Template name Empty - 16: click(findTestObject("Object - Maintenance Routine/Button - Add Selection"))
+2026-02-03 10:01:58.305 DEBUG icator Template with Template name Empty - 17: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 1"), "Good")
+2026-02-03 10:02:00.007 DEBUG icator Template with Template name Empty - 18: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 2"), "Need Repair")
+2026-02-03 10:02:01.511 DEBUG icator Template with Template name Empty - 19: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 3"), "Broken")
+2026-02-03 10:02:02.994 DEBUG icator Template with Template name Empty - 20: click(findTestObject("Object - Maintenance Routine/Button - Save"))
+2026-02-03 10:02:04.217 DEBUG icator Template with Template name Empty - 21: click(findTestObject("Object - Maintenance Routine/Button - Submit"))
+2026-02-03 10:02:05.602 DEBUG icator Template with Template name Empty - 22: company.validatorMessage.verifyErrorMessage("Max. 120 characters")
+2026-02-03 10:02:05.864 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.validatorMessage.verifyErrorMessage is PASSED
+2026-02-03 10:02:05.865 DEBUG icator Template with Template name Empty - 23: click(findTestObject("Object - Maintenance Routine/Button - Close"))
+2026-02-03 10:02:07.045 DEBUG icator Template with Template name Empty - 24: click(findTestObject("Object - Maintenance Routine/Button - Continue"))
+2026-02-03 10:02:08.435 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - New Indicator Template with Template Desc over 120char
+2026-02-03 10:02:08.437 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 10:02:08.437 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - New Indicator Template with Template Name over 30char
+2026-02-03 10:02:08.453 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) variable = 
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 10:02:08.565 DEBUG icator Template with Template name Empty - 1: click(findTestObject("Object - Maintenance Routine/Tab - Operations"))
+2026-02-03 10:02:09.987 DEBUG icator Template with Template name Empty - 2: click(findTestObject("Object - Maintenance Routine/Badge - Indicator"))
+2026-02-03 10:02:13.772 DEBUG icator Template with Template name Empty - 3: click(findTestObject("Object - Maintenance Routine/Button - Add Template"))
+2026-02-03 10:02:16.428 DEBUG icator Template with Template name Empty - 4: setText(findTestObject("Object - Maintenance Routine/Input - Template Name"), generatedOver30Name)
+2026-02-03 10:02:18.193 DEBUG icator Template with Template name Empty - 5: click(findTestObject("Object - Maintenance Routine/Button - Select Category in Dialog"))
+2026-02-03 10:02:19.575 DEBUG icator Template with Template name Empty - 6: company.EntitySelector.selectCategoryInDialog(defaultCategory)
+2026-02-03 10:02:21.669 INFO  com.kms.katalon.core.util.KeywordUtil    - Category terpilih: Adit-Category
+2026-02-03 10:02:21.670 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.EntitySelector.selectCategoryInDialog is PASSED
+2026-02-03 10:02:21.671 DEBUG icator Template with Template name Empty - 7: click(findTestObject("Object - Maintenance Routine/Button - Select"))
+2026-02-03 10:02:23.029 DEBUG icator Template with Template name Empty - 8: setText(findTestObject("Object - Maintenance Routine/Input - Template Description"), generatedName)
+2026-02-03 10:02:24.725 DEBUG icator Template with Template name Empty - 9: click(findTestObject("Object - Maintenance Routine/Button - Add Indicator"))
+2026-02-03 10:02:25.956 DEBUG icator Template with Template name Empty - 10: setText(findTestObject("Object - Maintenance Routine/Input - Indicator Name"), "Servis")
+2026-02-03 10:02:27.653 DEBUG icator Template with Template name Empty - 11: click(findTestObject("Object - Maintenance Routine/Input - Select Type"))
+2026-02-03 10:02:29.046 DEBUG icator Template with Template name Empty - 12: click(findTestObject("Object - Maintenance Routine/List - Selection"))
+2026-02-03 10:02:30.439 DEBUG icator Template with Template name Empty - 13: click(findTestObject("Object - Maintenance Routine/Input - Value Type"))
+2026-02-03 10:02:31.817 DEBUG icator Template with Template name Empty - 14: click(findTestObject("Object - Maintenance Routine/List - Text"))
+2026-02-03 10:02:33.159 DEBUG icator Template with Template name Empty - 15: setText(findTestObject("Object - Maintenance Routine/Input - Measurement"), "Condition")
+2026-02-03 10:02:34.870 DEBUG icator Template with Template name Empty - 16: click(findTestObject("Object - Maintenance Routine/Button - Add Selection"))
+2026-02-03 10:02:36.256 DEBUG icator Template with Template name Empty - 17: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 1"), "Good")
+2026-02-03 10:02:37.934 DEBUG icator Template with Template name Empty - 18: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 2"), "Need Repair")
+2026-02-03 10:02:39.446 DEBUG icator Template with Template name Empty - 19: setText(findTestObject("Object - Maintenance Routine/Input - Selection value 3"), "Broken")
+2026-02-03 10:02:40.925 DEBUG icator Template with Template name Empty - 20: click(findTestObject("Object - Maintenance Routine/Button - Save"))
+2026-02-03 10:02:42.145 DEBUG icator Template with Template name Empty - 21: click(findTestObject("Object - Maintenance Routine/Button - Submit"))
+2026-02-03 10:02:43.496 DEBUG icator Template with Template name Empty - 22: company.validatorMessage.verifyErrorMessage("Max. 30 characters")
+2026-02-03 10:02:43.747 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.validatorMessage.verifyErrorMessage is PASSED
+2026-02-03 10:02:43.748 DEBUG icator Template with Template name Empty - 23: click(findTestObject("Object - Maintenance Routine/Button - Close"))
+2026-02-03 10:02:44.913 DEBUG icator Template with Template name Empty - 24: click(findTestObject("Object - Maintenance Routine/Button - Continue"))
+2026-02-03 10:02:46.319 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Module - Addon/Submodule - Maintenance Routine/Negative (New)/Create - New Indicator Template with Template Name over 30char
+2026-02-03 10:02:46.648 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-03 10:02:46.648 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Addon - Maintenance Routine/Indicator Template - Negative
+2026-02-03 10:02:46.648 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

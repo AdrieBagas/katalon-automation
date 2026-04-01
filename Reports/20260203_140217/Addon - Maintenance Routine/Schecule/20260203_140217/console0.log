@@ -1,0 +1,67 @@
+2026-02-03 14:02:20.251 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\LENOVO\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2026-02-03 14:02:20.255 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\ka\Include\config\log.properties
+2026-02-03 14:02:20.883 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Addon - Maintenance Routine/Schecule
+2026-02-03 14:02:20.983 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Aditya Daffa Syahputra
+2026-02-03 14:02:20.984 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-automation
+2026-02-03 14:02:20.985 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = LENOVO - LAPTOP-JCNL1CVB
+2026-02-03 14:02:20.986 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-03 14:02:20.987 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.88.131
+2026-02-03 14:02:20.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2026-02-03 14:02:21.069 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 14:02:21.072 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 14:02:21.077 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 14:02:21.084 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 14:02:21.088 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 14:02:21.091 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+2026-02-03 14:02:21.098 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - company.RandomGenerator.generateRandomText is PASSED
+======================================================
+RUNNING FROM TEST SUITE: Data di-generate sekali untuk semua TC.
+======================================================
+2026-02-03 14:02:21.786 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 14:02:21.787 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Auth/Positive/Login User
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 14:02:21.901 DEBUG testcase.Login User                      - 1: openBrowser(Url)
+2026-02-03 14:02:22.136 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-03 14:02:22.198 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 800 milliseconds
+Feb 03, 2026 2:02:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 03, 2026 2:02:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-02-03 14:02:23.953 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 29c9596cb236637a5539b5967fbfa9ac
+2026-02-03 14:02:23.955 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.110
+2026-02-03 14:02:23.956 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-03 14:02:23.956 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-03 14:02:23.967 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-03 14:02:28.566 DEBUG testcase.Login User                      - 2: maximizeWindow()
+2026-02-03 14:02:28.627 DEBUG testcase.Login User                      - 3: setText(findTestObject("login session object/Input - Email"), Email)
+2026-02-03 14:02:35.727 DEBUG testcase.Login User                      - 4: setText(findTestObject("login session object/Input - Password"), Password)
+2026-02-03 14:02:37.263 DEBUG testcase.Login User                      - 5: click(findTestObject("login session object/Button - Login"))
+2026-02-03 14:02:38.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Module - Auth/Positive/Login User
+2026-02-03 14:02:38.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 14:02:38.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Click - Fixed Asset Button
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 14:02:38.535 DEBUG testcase.Click - Fixed Asset Button      - 1: click(findTestObject("login session object/Button - Fixed Asset"))
+2026-02-03 14:03:46.040 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Click - Fixed Asset Button
+2026-02-03 14:03:46.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 14:03:46.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Module - Addon/Submodule - Maintenance Routine/Open - Addon Maintenance Routine
+SKIP GENERATE: Menggunakan data dari Test Suite Setup.
+2026-02-03 14:03:46.104 DEBUG t.Open - Addon Maintenance Routine       - 1: click(findTestObject("Object - Maintenance Routine/Sidebar Menu - Addon"))
+Feb 03, 2026 2:04:04 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+
