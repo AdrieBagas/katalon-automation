@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Inactive - Custom Asset ID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a0549c26-a010-44a3-9141-ff9e3ece0d78</testCaseGuid>
+</TestCaseEntity>

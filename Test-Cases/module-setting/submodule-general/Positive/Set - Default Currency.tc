@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set - Default Currency</name>
+   <tag>Done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1bd93b3e-7788-429d-bf09-823eff3a8cc2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23d4d554-96f7-4a5d-b0c3-456dd6555dbe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e586fa4e-2dd5-46a9-83ca-33b0da1a1eef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>23d4d554-96f7-4a5d-b0c3-456dd6555dbe</id>
+      <masked>false</masked>
+      <name>formatBefore</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>e586fa4e-2dd5-46a9-83ca-33b0da1a1eef</id>
+      <masked>false</masked>
+      <name>formatAfter</name>
+   </variable>
+</TestCaseEntity>

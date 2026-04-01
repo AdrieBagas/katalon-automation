@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Active - Geolocation</name>
+   <tag>Done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0bba769-687a-4b4e-a3b8-48fa3779f06c</testCaseGuid>
+</TestCaseEntity>

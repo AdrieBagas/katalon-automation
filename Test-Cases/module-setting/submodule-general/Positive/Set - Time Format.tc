@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set - Time Format</name>
+   <tag>Done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9b62e44-a3be-4def-881c-799a7cc6fc5d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>920e26cb-a2f0-401e-91fb-a50360cdd816</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10ff17cc-bb4b-406b-bb6a-40b6b881ab7a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>920e26cb-a2f0-401e-91fb-a50360cdd816</id>
+      <masked>false</masked>
+      <name>formatBefore</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>10ff17cc-bb4b-406b-bb6a-40b6b881ab7a</id>
+      <masked>false</masked>
+      <name>formatAfter</name>
+   </variable>
+</TestCaseEntity>

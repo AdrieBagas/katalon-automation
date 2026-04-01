@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set - Date Format</name>
+   <tag>Done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>373b2c50-9e5e-42c3-bcf0-98f9cdc382c9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>390e0463-870c-4c8f-8d9b-65966e963439</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>105c9041-b9dd-4a87-87df-6597e72cf544</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'-'</defaultValue>
+      <description></description>
+      <id>390e0463-870c-4c8f-8d9b-65966e963439</id>
+      <masked>false</masked>
+      <name>formatBefore</name>
+   </variable>
+   <variable>
+      <defaultValue>'-'</defaultValue>
+      <description></description>
+      <id>105c9041-b9dd-4a87-87df-6597e72cf544</id>
+      <masked>false</masked>
+      <name>formatAfter</name>
+   </variable>
+</TestCaseEntity>

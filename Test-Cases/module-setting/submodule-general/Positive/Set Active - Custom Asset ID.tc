@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Active - Custom Asset ID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9833626-e42e-4089-99a6-71faf2fcc22a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48c98be8-1ae9-4ea2-b7c5-da53c02b3963</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06d048d0-a965-49ed-81b7-e8cfc96dc868</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.generatedCodeName</defaultValue>
+      <description></description>
+      <id>48c98be8-1ae9-4ea2-b7c5-da53c02b3963</id>
+      <masked>false</masked>
+      <name>initial</name>
+   </variable>
+   <variable>
+      <defaultValue>'/'</defaultValue>
+      <description></description>
+      <id>06d048d0-a965-49ed-81b7-e8cfc96dc868</id>
+      <masked>false</masked>
+      <name>separator</name>
+   </variable>
+</TestCaseEntity>

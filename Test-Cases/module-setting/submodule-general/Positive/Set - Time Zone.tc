@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set - Time Zone</name>
+   <tag>Done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0be00428-8afd-4510-8998-78cb19ec8b82</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd9126d6-a761-42af-91c4-2d6f19c04cb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eaf79541-1442-402b-93f7-11e03a14b1ac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>fd9126d6-a761-42af-91c4-2d6f19c04cb1</id>
+      <masked>false</masked>
+      <name>formatBefore</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>eaf79541-1442-402b-93f7-11e03a14b1ac</id>
+      <masked>false</masked>
+      <name>formatAfter</name>
+   </variable>
+</TestCaseEntity>

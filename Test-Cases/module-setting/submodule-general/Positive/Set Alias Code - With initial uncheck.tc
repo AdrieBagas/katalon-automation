@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Alias Code - With initial uncheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27b61e77-d7e6-4f55-96d1-bb5fdca8f229</testCaseGuid>
+   <variable>
+      <defaultValue>'WGST'</defaultValue>
+      <description></description>
+      <id>98ab33f8-b764-44c0-9b40-27e1623e9750</id>
+      <masked>false</masked>
+      <name>initial</name>
+   </variable>
+   <variable>
+      <defaultValue>'/'</defaultValue>
+      <description></description>
+      <id>9ef41ae1-9dd4-4351-8b05-890a87b7f027</id>
+      <masked>false</masked>
+      <name>separator</name>
+   </variable>
+</TestCaseEntity>

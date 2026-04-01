@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Inactive - Geolocation</name>
+   <tag>Done</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2343eba3-ec24-419c-a53d-b630dbd7f7ea</testCaseGuid>
+</TestCaseEntity>

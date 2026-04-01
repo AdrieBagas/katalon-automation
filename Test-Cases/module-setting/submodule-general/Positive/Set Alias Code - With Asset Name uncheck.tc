@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Alias Code - With Asset Name uncheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4c956e8-2148-4aa3-aeeb-3f481029132a</testCaseGuid>
+   <variable>
+      <defaultValue>'WGST'</defaultValue>
+      <description></description>
+      <id>73b02f91-d031-42cf-b9f3-8cc9d8f6e89b</id>
+      <masked>false</masked>
+      <name>initial</name>
+   </variable>
+   <variable>
+      <defaultValue>'_'</defaultValue>
+      <description></description>
+      <id>70ef92b3-9e4c-4ad3-b221-d021cce4253f</id>
+      <masked>false</masked>
+      <name>separator</name>
+   </variable>
+</TestCaseEntity>

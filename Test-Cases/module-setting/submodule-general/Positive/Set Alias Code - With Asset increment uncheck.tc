@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Alias Code - With Asset increment uncheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4fc2bac5-03d8-4cb3-990b-7ce28d977408</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de6660ab-d41e-45fa-ae5d-a8656d1f3a02</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c59aebe-b1d7-460b-be8d-b1b4a67e8138</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'WGST'</defaultValue>
+      <description></description>
+      <id>de6660ab-d41e-45fa-ae5d-a8656d1f3a02</id>
+      <masked>false</masked>
+      <name>initial</name>
+   </variable>
+   <variable>
+      <defaultValue>'-'</defaultValue>
+      <description></description>
+      <id>4c59aebe-b1d7-460b-be8d-b1b4a67e8138</id>
+      <masked>false</masked>
+      <name>separator</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Alias Code - With Group uncheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16ec1244-709f-4300-b9db-99c5a0a807ce</testCaseGuid>
+   <variable>
+      <defaultValue>'WGST'</defaultValue>
+      <description></description>
+      <id>ad56ea5a-e4e1-479a-9987-67e5a1218980</id>
+      <masked>false</masked>
+      <name>initial</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c049417a-3fce-4dc8-9732-838940c23bbb</id>
+      <masked>false</masked>
+      <name>separator</name>
+   </variable>
+</TestCaseEntity>

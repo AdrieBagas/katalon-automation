@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Alias Code - With Purchase date uncheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9decca7d-738b-40a9-9514-7bd14310ea03</testCaseGuid>
+   <variable>
+      <defaultValue>'WGST'</defaultValue>
+      <description></description>
+      <id>d11a24d5-a203-4ff1-9760-b6af9850613e</id>
+      <masked>false</masked>
+      <name>initial</name>
+   </variable>
+   <variable>
+      <defaultValue>'/'</defaultValue>
+      <description></description>
+      <id>94e01aab-17fc-4afd-87ec-01b3451847b1</id>
+      <masked>false</masked>
+      <name>separator</name>
+   </variable>
+</TestCaseEntity>
