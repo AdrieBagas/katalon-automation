@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field - Brand</name>
+   <tag></tag>
+   <elementGuidId>315588a6-6174-40be-b0b1-a210bc95a090</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ec01b930-9c3f-4d7e-bf4d-c5acabf7351c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fieldname</name>
+      <type>Main</type>
+      <value>brand</value>
+      <webElementGuid>eeaa2a82-afd8-4b8a-a45d-ba1b8142de9f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
