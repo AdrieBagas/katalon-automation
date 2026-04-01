@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Deprectiation Group - With field depreciation group already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d61c565-3371-4751-8bd2-40de73b034eb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a428ac68-0b5f-41b7-8750-8ad9ac5276e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>533eeafc-47e0-4583-abdc-16eea0cdf896</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darrens'</defaultValue>
+      <description></description>
+      <id>a428ac68-0b5f-41b7-8750-8ad9ac5276e4</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Depreciation Darren Stay'</defaultValue>
+      <description></description>
+      <id>533eeafc-47e0-4583-abdc-16eea0cdf896</id>
+      <masked>false</masked>
+      <name>existingDepreciationGroup</name>
+   </variable>
+</TestCaseEntity>

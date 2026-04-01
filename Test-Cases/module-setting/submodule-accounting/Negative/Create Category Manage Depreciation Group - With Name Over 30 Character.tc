@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Category Manage Depreciation Group - With Name Over 30 Character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8380566-1d28-4e61-936d-f777a94bdfba</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Depreciation Group - With field depreciation group over 30 character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eafe776a-767b-4165-8f9c-4ed3f6eb6f3e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Account Code - With account name over 30 character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d1bfc1b1-72f7-4b4e-a577-50817653a236</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account Code - With account code empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da2a6f44-9ce1-4b79-9b6e-c76f716d40c1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98175000-1493-4021-b7c5-76bffc9a8272</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Name Darrens'</defaultValue>
+      <description></description>
+      <id>98175000-1493-4021-b7c5-76bffc9a8272</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Category Manage Depreciation Group - With Field Over 30 Characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b64d5a3-0bee-4ce1-bf84-3aa043026989</testCaseGuid>
+</TestCaseEntity>

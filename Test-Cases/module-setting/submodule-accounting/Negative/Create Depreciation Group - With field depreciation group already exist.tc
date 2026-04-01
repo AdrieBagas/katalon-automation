@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Depreciation Group - With field depreciation group already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>94cb38a6-79ac-4384-a501-5df9d1e3c831</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d2eddf9-aae2-477e-bc9d-3fe41b820fd0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12d7b9c9-165b-4ab9-b2d0-c1b26ac19542</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5dc85c1d-eb80-45ba-81fa-93d6159c93f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Darren Stay'</defaultValue>
+      <description></description>
+      <id>8d2eddf9-aae2-477e-bc9d-3fe41b820fd0</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'2304'</defaultValue>
+      <description></description>
+      <id>12d7b9c9-165b-4ab9-b2d0-c1b26ac19542</id>
+      <masked>false</masked>
+      <name>usefulLife</name>
+   </variable>
+   <variable>
+      <defaultValue>'2384'</defaultValue>
+      <description></description>
+      <id>5dc85c1d-eb80-45ba-81fa-93d6159c93f1</id>
+      <masked>false</masked>
+      <name>salvageValue</name>
+   </variable>
+</TestCaseEntity>

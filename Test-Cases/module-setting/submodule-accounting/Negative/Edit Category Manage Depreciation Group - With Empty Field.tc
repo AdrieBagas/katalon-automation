@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Category Manage Depreciation Group - With Empty Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>604e85bb-597c-4faf-b752-6c7ede398fb8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Category Manage Depreciation Group - With Empty Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e2e39cb-1009-43ca-9e62-c96961b492a5</testCaseGuid>
+</TestCaseEntity>

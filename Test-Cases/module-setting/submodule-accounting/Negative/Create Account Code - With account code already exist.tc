@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Account Code - With account code already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06347b35-faff-4788-a80f-109bef887601</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dfb5f17a-1c38-46a1-8bea-98dcff3a5670</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8f0d319-089d-4484-8823-12f00c467688</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Name Darren'</defaultValue>
+      <description></description>
+      <id>dfb5f17a-1c38-46a1-8bea-98dcff3a5670</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code Darren'</defaultValue>
+      <description></description>
+      <id>f8f0d319-089d-4484-8823-12f00c467688</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+</TestCaseEntity>

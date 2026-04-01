@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account Code - With account code over 30 character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4b1c6ad-6b4d-4d9d-aeb5-329a44a4d957</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b13d1739-9308-4529-bab8-f600323fed02</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e91d4cf-bc55-4329-ba77-21e97bb13d74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Name Darrens'</defaultValue>
+      <description></description>
+      <id>b13d1739-9308-4529-bab8-f600323fed02</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code Darrens'</defaultValue>
+      <description></description>
+      <id>5e91d4cf-bc55-4329-ba77-21e97bb13d74</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+</TestCaseEntity>

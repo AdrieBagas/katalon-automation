@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Category Manage Depreciation Group - With Name Already Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a4d2a8f-1f3d-40cb-a33a-086b7dbdc571</testCaseGuid>
+</TestCaseEntity>

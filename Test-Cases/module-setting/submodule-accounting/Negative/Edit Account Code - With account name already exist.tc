@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account Code - With account name already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e7de26c-1a12-4eac-9c67-c168e8f255aa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b692b102-242d-4361-8375-54bf965f7f3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74fdbab1-45cf-4877-bb80-61615f2f064f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef0ebcdf-a870-434c-be86-1bda2cb1e3d0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account Name Darrens'</defaultValue>
+      <description></description>
+      <id>b692b102-242d-4361-8375-54bf965f7f3b</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code Darrens'</defaultValue>
+      <description></description>
+      <id>74fdbab1-45cf-4877-bb80-61615f2f064f</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Name Darren Stay'</defaultValue>
+      <description></description>
+      <id>ef0ebcdf-a870-434c-be86-1bda2cb1e3d0</id>
+      <masked>false</masked>
+      <name>existingAccountName</name>
+   </variable>
+</TestCaseEntity>
