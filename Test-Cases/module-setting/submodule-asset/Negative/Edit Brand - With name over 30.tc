@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Brand - With name over 30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f2a0359-cc60-4017-a935-489d6cbd6324</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c210b3a8-42b1-4670-9641-2535418fa283</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 11'</defaultValue>
+      <description></description>
+      <id>c210b3a8-42b1-4670-9641-2535418fa283</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Asset - With name using special characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c249652-01c3-4ba6-98c7-80df256c7933</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>758adfa5-c2bb-4cc4-831b-337398c96289</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0016a4f-c452-4877-88c2-1193e5b8e28b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darrens'</defaultValue>
+      <description></description>
+      <id>758adfa5-c2bb-4cc4-831b-337398c96289</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Asset Name - #123'</defaultValue>
+      <description></description>
+      <id>a0016a4f-c452-4877-88c2-1193e5b8e28b</id>
+      <masked>false</masked>
+      <name>newAssetName</name>
+   </variable>
+</TestCaseEntity>

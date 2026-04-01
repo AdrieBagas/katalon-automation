@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Brand - With category empty - Delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c851c2cd-ad05-4037-881c-4714e12bf126</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5674bdd-9233-47c9-a13d-71dc30b8e133</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 11'</defaultValue>
+      <description></description>
+      <id>e5674bdd-9233-47c9-a13d-71dc30b8e133</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+</TestCaseEntity>

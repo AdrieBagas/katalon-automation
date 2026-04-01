@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Brand - With model type value empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6be5fd4-352b-49f2-a497-e0f1c8b46a9e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9da3fe06-a95d-4da6-b4a7-7641eb8e3cdd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>9da3fe06-a95d-4da6-b4a7-7641eb8e3cdd</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

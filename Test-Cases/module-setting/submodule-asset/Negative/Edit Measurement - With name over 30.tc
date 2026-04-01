@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Measurement - With name over 30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e9bcad8f-eb84-4f09-b761-f5ef0d0a7543</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00ae9723-ba71-46d0-83ee-8c6d5e95e2e0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Units'</defaultValue>
+      <description></description>
+      <id>00ae9723-ba71-46d0-83ee-8c6d5e95e2e0</id>
+      <masked>false</masked>
+      <name>measurementName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Brand - With name already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>985aa7be-15d7-413b-8ef2-1f43d6cc13ec</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11625f75-0a67-4b75-8f96-aca0a6019188</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d772aa28-223d-4305-8b4d-d9ccc580ae13</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 1'</defaultValue>
+      <description></description>
+      <id>11625f75-0a67-4b75-8f96-aca0a6019188</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>d772aa28-223d-4305-8b4d-d9ccc580ae13</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

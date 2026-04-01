@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Brand - With name already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d84509d6-a88c-4734-b740-7234c653928e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea7c1dad-5880-46ee-ba1d-2256fd8d61fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>030d9028-b43f-4ae6-8b13-4fcd4bce7172</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 11'</defaultValue>
+      <description></description>
+      <id>ea7c1dad-5880-46ee-ba1d-2256fd8d61fc</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Brand Stay'</defaultValue>
+      <description></description>
+      <id>030d9028-b43f-4ae6-8b13-4fcd4bce7172</id>
+      <masked>false</masked>
+      <name>newBrandName</name>
+   </variable>
+</TestCaseEntity>

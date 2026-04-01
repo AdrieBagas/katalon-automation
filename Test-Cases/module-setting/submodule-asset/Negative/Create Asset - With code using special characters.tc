@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset - With code using special characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d641448-ed12-4984-ae95-9e7fc8ba05ec</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51d8c9f5-09ee-4384-92e3-43a253c3a1bc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'$*#@'</defaultValue>
+      <description></description>
+      <id>51d8c9f5-09ee-4384-92e3-43a253c3a1bc</id>
+      <masked>false</masked>
+      <name>assetCode</name>
+   </variable>
+</TestCaseEntity>

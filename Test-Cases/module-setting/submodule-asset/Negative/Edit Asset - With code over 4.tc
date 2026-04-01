@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Asset - With code over 4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>536804cb-4154-4465-8495-c0e76a12df13</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a080959b-4560-450d-8656-1936429edca2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c68fef8-6b43-4e09-8de5-6988adbf5e8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>841bdddc-5a22-45e8-bb1d-220762dc2986</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darrens'</defaultValue>
+      <description></description>
+      <id>a080959b-4560-450d-8656-1936429edca2</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'JNKJNKJNK'</defaultValue>
+      <description></description>
+      <id>3c68fef8-6b43-4e09-8de5-6988adbf5e8e</id>
+      <masked>false</masked>
+      <name>assetCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>841bdddc-5a22-45e8-bb1d-220762dc2986</id>
+      <masked>false</masked>
+      <name>actualValue</name>
+   </variable>
+</TestCaseEntity>

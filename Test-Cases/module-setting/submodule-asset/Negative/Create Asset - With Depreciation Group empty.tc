@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset - With Depreciation Group empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>199a0e83-5abf-425a-b010-d21c095b4452</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e3c3222-615d-4a32-a15b-7d7df08bff08</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e68a5e35-654c-4a44-92a2-8e44bb790fea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9002ab2b-452d-4caf-a1a3-bbf08a309ecb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4851516d-5b65-4098-a5bc-96b32511681e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Units'</defaultValue>
+      <description></description>
+      <id>0e3c3222-615d-4a32-a15b-7d7df08bff08</id>
+      <masked>false</masked>
+      <name>measurement</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code 1'</defaultValue>
+      <description></description>
+      <id>e68a5e35-654c-4a44-92a2-8e44bb790fea</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Non TAG'</defaultValue>
+      <description></description>
+      <id>9002ab2b-452d-4caf-a1a3-bbf08a309ecb</id>
+      <masked>false</masked>
+      <name>tagType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>4851516d-5b65-4098-a5bc-96b32511681e</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

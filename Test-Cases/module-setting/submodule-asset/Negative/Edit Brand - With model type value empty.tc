@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Brand - With model type value empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b739c173-7149-42a9-8a69-fa52d0abd186</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f74d1661-e56a-4504-b551-50eb533df499</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 11'</defaultValue>
+      <description></description>
+      <id>f74d1661-e56a-4504-b551-50eb533df499</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+</TestCaseEntity>

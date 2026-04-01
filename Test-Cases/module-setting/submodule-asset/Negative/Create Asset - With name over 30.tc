@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset - With name over 30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6bdbd6d-d099-4e27-b2b6-bf31ac0107bc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcaeae2d-a60d-403f-b191-37e783074811</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3de2858-4fe9-448a-b730-2202b1671300</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65809d50-3a88-4aa4-a2fc-63b1ed7e1593</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>969451b6-bc47-42a8-bbcc-ff484954c3ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>392ff296-3998-4af6-a1f8-fc3b4f3c6cb9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de15b6a1-6c2d-4cd4-88cf-a1ab45b4427e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SMDF'</defaultValue>
+      <description></description>
+      <id>fcaeae2d-a60d-403f-b191-37e783074811</id>
+      <masked>false</masked>
+      <name>assetCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Units'</defaultValue>
+      <description></description>
+      <id>a3de2858-4fe9-448a-b730-2202b1671300</id>
+      <masked>false</masked>
+      <name>measurement</name>
+   </variable>
+   <variable>
+      <defaultValue>'Depreciation Group 1'</defaultValue>
+      <description></description>
+      <id>65809d50-3a88-4aa4-a2fc-63b1ed7e1593</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code 1'</defaultValue>
+      <description></description>
+      <id>969451b6-bc47-42a8-bbcc-ff484954c3ad</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Non TAG'</defaultValue>
+      <description></description>
+      <id>392ff296-3998-4af6-a1f8-fc3b4f3c6cb9</id>
+      <masked>false</masked>
+      <name>tagType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>de15b6a1-6c2d-4cd4-88cf-a1ab45b4427e</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Brand - With category empty - Uncheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>726c4f73-9644-45f7-9f37-c6628532f92d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddcda6b3-c6f6-419a-a9cb-0ef8e4f36c7d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7c1d77c-a96f-4f0e-9948-6a8fc3b7b259</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Brand 11'</defaultValue>
+      <description></description>
+      <id>ddcda6b3-c6f6-419a-a9cb-0ef8e4f36c7d</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ABCD'</defaultValue>
+      <description></description>
+      <id>d7c1d77c-a96f-4f0e-9948-6a8fc3b7b259</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

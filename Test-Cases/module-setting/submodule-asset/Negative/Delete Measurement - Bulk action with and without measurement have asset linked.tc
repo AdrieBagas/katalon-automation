@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Measurement - Bulk action with and without measurement have asset linked</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92bd259e-cef3-4eeb-981c-f0b586e1a8ca</testCaseGuid>
+</TestCaseEntity>

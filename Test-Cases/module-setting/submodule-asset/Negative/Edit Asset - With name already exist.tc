@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Asset - With name already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44b30e88-902d-4b40-b9ab-7e9092676eae</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0996610a-9864-4d28-9e6c-bb9b4f368ca3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39fde63a-11dc-4699-b1ab-340400b19eb9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darrens'</defaultValue>
+      <description></description>
+      <id>0996610a-9864-4d28-9e6c-bb9b4f368ca3</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Asset Name Darren Addon'</defaultValue>
+      <description></description>
+      <id>39fde63a-11dc-4699-b1ab-340400b19eb9</id>
+      <masked>false</masked>
+      <name>newAssetName</name>
+   </variable>
+</TestCaseEntity>

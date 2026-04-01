@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset - With code over 4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11586769-c88c-4166-92c8-0c70fac87cd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b57fa50-fc62-45a2-8b9e-64ac5eebd2d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fc4ebda-c1e4-4a77-982f-2baf6845b532</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'askjdnaksdnk'</defaultValue>
+      <description></description>
+      <id>8b57fa50-fc62-45a2-8b9e-64ac5eebd2d0</id>
+      <masked>false</masked>
+      <name>assetCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>2fc4ebda-c1e4-4a77-982f-2baf6845b532</id>
+      <masked>false</masked>
+      <name>actualValue</name>
+   </variable>
+</TestCaseEntity>

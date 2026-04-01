@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Asset - With name over 30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92eb5690-a477-41ed-8122-1b4b5dde69ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a272969-b43e-4f3a-8737-51e5301edc75</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ae28f6e-2010-4f04-922f-8dd75756fdff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darrens'</defaultValue>
+      <description></description>
+      <id>0a272969-b43e-4f3a-8737-51e5301edc75</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'amsdnasd'</defaultValue>
+      <description></description>
+      <id>4ae28f6e-2010-4f04-922f-8dd75756fdff</id>
+      <masked>false</masked>
+      <name>newAssetName</name>
+   </variable>
+</TestCaseEntity>

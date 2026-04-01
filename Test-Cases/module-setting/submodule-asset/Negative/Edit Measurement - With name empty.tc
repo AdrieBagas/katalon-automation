@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Measurement - With name empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70a456d2-a61e-4b14-809e-92698efbf473</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1aaf4345-7d21-41c6-a68b-55707cb2ef4c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Units'</defaultValue>
+      <description></description>
+      <id>1aaf4345-7d21-41c6-a68b-55707cb2ef4c</id>
+      <masked>false</masked>
+      <name>measurementName</name>
+   </variable>
+</TestCaseEntity>

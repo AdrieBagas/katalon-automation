@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Brand - Bulk action with brand have related asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1c896a2-c922-43cf-939f-93ec30642e67</testCaseGuid>
+</TestCaseEntity>

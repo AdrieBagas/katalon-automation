@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Asset - With code already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fde4f9a-ddf0-4116-81c2-5ac5e24e8cb4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>64c91b84-908e-4cba-a390-46f4bd9b6360</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4056b0c0-718b-4fda-ba39-362b75928b23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Asset Name Darrens'</defaultValue>
+      <description></description>
+      <id>64c91b84-908e-4cba-a390-46f4bd9b6360</id>
+      <masked>false</masked>
+      <name>assetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ADON'</defaultValue>
+      <description></description>
+      <id>4056b0c0-718b-4fda-ba39-362b75928b23</id>
+      <masked>false</masked>
+      <name>newAssetCode</name>
+   </variable>
+</TestCaseEntity>

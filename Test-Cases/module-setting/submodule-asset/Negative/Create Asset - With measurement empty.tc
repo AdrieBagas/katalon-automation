@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset - With measurement empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e61d5631-7ee6-4fef-a7ee-d2a34a0a9c93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7fde999e-e6f1-4d5f-849d-3ccae66dc9e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13e21751-d8d0-4cfd-a866-b61ce4c65c5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36cc16ee-bd91-43b9-84f3-bef602a25495</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78bdbc78-ab66-4715-932b-9e5a90594105</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Depreciation Group 1'</defaultValue>
+      <description></description>
+      <id>7fde999e-e6f1-4d5f-849d-3ccae66dc9e6</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Code 1'</defaultValue>
+      <description></description>
+      <id>13e21751-d8d0-4cfd-a866-b61ce4c65c5d</id>
+      <masked>false</masked>
+      <name>accountCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Non TAG'</defaultValue>
+      <description></description>
+      <id>36cc16ee-bd91-43b9-84f3-bef602a25495</id>
+      <masked>false</masked>
+      <name>tagType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>78bdbc78-ab66-4715-932b-9e5a90594105</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>

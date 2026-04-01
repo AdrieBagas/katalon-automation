@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Measurement - With name empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>713c671b-a378-4dc2-8bdc-f08b6717aa1a</testCaseGuid>
+</TestCaseEntity>

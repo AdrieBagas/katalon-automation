@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset - With Account Code empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f3c21a4-7439-4438-87a5-eb1106cd39bb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50dca6c4-8376-46fc-b9e7-e8b1d8c56534</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>638ed622-1a62-45e4-a6fd-81148d26e78b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ecca42b-5ba9-4073-8149-31c1884b0706</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d309b70-c285-4611-8160-4562e50390ce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Units'</defaultValue>
+      <description></description>
+      <id>50dca6c4-8376-46fc-b9e7-e8b1d8c56534</id>
+      <masked>false</masked>
+      <name>measurement</name>
+   </variable>
+   <variable>
+      <defaultValue>'Depreciation Group 1'</defaultValue>
+      <description></description>
+      <id>638ed622-1a62-45e4-a6fd-81148d26e78b</id>
+      <masked>false</masked>
+      <name>depreciationGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>'Non TAG'</defaultValue>
+      <description></description>
+      <id>2ecca42b-5ba9-4073-8149-31c1884b0706</id>
+      <masked>false</masked>
+      <name>tagType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Category'</defaultValue>
+      <description></description>
+      <id>6d309b70-c285-4611-8160-4562e50390ce</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+</TestCaseEntity>
