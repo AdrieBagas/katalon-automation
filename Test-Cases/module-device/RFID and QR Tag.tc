@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RFID and QR Tag</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>640d9c4e-57ec-40b0-b5b9-c9f4482c27cf</testCaseGuid>
+</TestCaseEntity>

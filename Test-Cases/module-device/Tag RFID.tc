@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+<<<<<<<< HEAD:Test Cases/Module - Fixed assets/Submodule - Disposal/Utils/Sync.tc
+   <name>Sync</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d4f9bd2-df67-4c90-826a-932ea25b333b</testCaseGuid>
+========
+   <name>Tag RFID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c702a025-0e5d-4f2e-a154-24fc2bda5559</testCaseGuid>
+>>>>>>>> need-improvement:Test Cases/module - Device/submodule - Tag/Tag RFID.tc
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Replace Tag (RFID)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff584fb9-d656-4ec7-a7b7-7f81bc753763</testCaseGuid>
+</TestCaseEntity>

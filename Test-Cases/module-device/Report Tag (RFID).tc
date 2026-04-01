@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Report Tag (RFID)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>164fe6e8-2e66-40d1-b20b-27747fe20b8b</testCaseGuid>
+</TestCaseEntity>
