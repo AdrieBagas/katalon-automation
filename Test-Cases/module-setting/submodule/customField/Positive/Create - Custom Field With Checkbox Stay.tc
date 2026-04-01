@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create - Custom Field With Checkbox Stay</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bae8d958-96f7-4391-b363-9d28490f7d8d</testCaseGuid>
-</TestCaseEntity>

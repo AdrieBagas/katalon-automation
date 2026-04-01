@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create - Custom Field clear field</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b1c7f0da-3499-458c-a343-a3ac5f1889c3</testCaseGuid>
-</TestCaseEntity>

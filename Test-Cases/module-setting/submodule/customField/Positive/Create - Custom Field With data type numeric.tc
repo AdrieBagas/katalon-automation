@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create - Custom Field With data type numeric</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ddd092c5-16b8-4966-9c29-cee879aac698</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Edit - Bulk action inactivate custom field</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7fcdeb86-8934-4fa6-8ee6-e78a802c16d8</testCaseGuid>
-</TestCaseEntity>

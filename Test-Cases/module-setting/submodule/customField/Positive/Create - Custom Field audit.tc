@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create - Custom Field audit</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>14e2347b-13ab-44e6-8899-691361707aaf</testCaseGuid>
-</TestCaseEntity>

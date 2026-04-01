@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create - Custom Field With data type multi dropdown</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e63631d2-2449-4080-9795-fc18814202c5</testCaseGuid>
-</TestCaseEntity>
